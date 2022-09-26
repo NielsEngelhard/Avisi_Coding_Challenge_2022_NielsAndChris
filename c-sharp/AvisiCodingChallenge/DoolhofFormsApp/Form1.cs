@@ -181,9 +181,15 @@ namespace DoolhofFormsApp
                 {
                     // Dead end - now broken...
                     break;
+                    // WalkToTile(juntcion);
                 }
             }
 
+        }
+
+        public void WalkToTile(int x, int y)
+        {
+            // TODO implement
         }
     }
 }
