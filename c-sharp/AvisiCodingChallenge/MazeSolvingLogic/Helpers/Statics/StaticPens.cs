@@ -14,5 +14,12 @@ namespace MazeSolvingLogic.Helpers.Statics
         private static Pen RedPen = new Pen(Color.Red);
         public static Pen GetRedPen() => RedPen;
 
+        private static Pen ThickBlackPen = new Pen(Color.Black);
+        public static Pen GetThickBlackPen()
+        {
+            ThickBlackPen.Width = 10;
+            return ThickBlackPen;
+        }
+
     }
 }
