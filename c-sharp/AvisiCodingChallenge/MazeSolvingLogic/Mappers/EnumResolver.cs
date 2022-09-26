@@ -12,7 +12,7 @@ namespace MazeSolvingLogic.Mappers
                 MoveableDirection.RIGHT => "RIGHT",
                 MoveableDirection.UP => "UP",
                 MoveableDirection.DOWN => "DOWN",
-                _ => "unknown",
+                _ => throw new Exception($"unknown direction {direction}"),
             };
         }
 
@@ -23,7 +23,7 @@ namespace MazeSolvingLogic.Mappers
                 KeyColor.RED => "RED",
                 KeyColor.GREEN => "GREEN",
                 KeyColor.ORANGE => "ORANGE",
-                _ => "unknown",
+                _ => throw new Exception($"unknown key color {keyColor}"),
             };
         }
 

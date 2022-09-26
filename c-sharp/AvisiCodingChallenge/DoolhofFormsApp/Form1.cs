@@ -2,6 +2,7 @@ using MazeSolvingLogic;
 using MazeSolvingLogic.Helpers;
 using MazeSolvingLogic.Helpers.Statics;
 using MazeSolvingLogic.Http;
+using MazeSolvingLogic.Http.Models;
 using MazeSolvingLogic.Mappers;
 using MazeSolvingLogic.Models;
 
@@ -47,13 +48,36 @@ namespace DoolhofFormsApp
             }
         }
 
-        public void DrawDiscoveredTile(int x, int y, MoveableDirection[] directionsWithDoor)
+        public void DrawDiscoveredTile(int x, int y, MoveableDirection[] directionsWithDoor, Item? item = null)
         {
             var xLocation = x * SQUARE_SIZE;
             var yLocation = y * SQUARE_SIZE;
 
             // First fill rectangle with color to indicate that it has been discovered
             g.FillRectangle(new SolidBrush(Color.Blue), xLocation, yLocation, SQUARE_SIZE, SQUARE_SIZE);
+
+            // Draw key discovered
+            if (item != null)
+            {
+                if (item.type == "key")
+                {
+                    Pen pen = null;
+                    switch (item.keyType.ResolveKeyColor())
+                    {
+                        case KeyColor.GREEN:
+                            pen = new Pen(Color.Green);
+                            break;
+                        case KeyColor.RED:
+                            pen = new Pen(Color.Red);
+                            break;
+                        case KeyColor.ORANGE:
+                            pen = new Pen(Color.Orange);
+                            break;
+                    }
+
+                    g.DrawEllipse(pen, x* SQUARE_SIZE, y* SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE);
+                }
+            }
 
             // Add borders to the directions where there is a door
             if (directionsWithDoor.Contains(MoveableDirection.UP))
@@ -142,7 +166,7 @@ namespace DoolhofFormsApp
 
                         try
                         {
-                            DrawDiscoveredTile(newPosition.position.x, newPosition.position.y, newPosition.openDirections.MapMoveableDirectionFromStringToArray());
+                            DrawDiscoveredTile(newPosition.position.x, newPosition.position.y, newPosition.openDirections.MapMoveableDirectionFromStringToArray(), newPosition.item);
                         }
                         catch (Exception ex)
                         {
