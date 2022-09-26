@@ -58,21 +58,37 @@ namespace DoolhofFormsApp
             // Add borders to the directions where there is a door
             if (directionsWithDoor.Contains(MoveableDirection.UP))
             {
+                if (Maze.MazeArray[x,y-1].IsDiscoverd == false)
+                {
+                    g.FillRectangle(new SolidBrush(Color.LawnGreen), xLocation, yLocation - SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE);
+                }
                 g.DrawLine(StaticPens.GetRedPen(), new Point(xLocation, yLocation), new Point(xLocation + SQUARE_SIZE, yLocation));
             }
 
             if (directionsWithDoor.Contains(MoveableDirection.DOWN))
             {
+                if (Maze.MazeArray[x, y+1].IsDiscoverd == false)
+                {
+                    g.FillRectangle(new SolidBrush(Color.LawnGreen), xLocation, yLocation + SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE);
+                }
                 g.DrawLine(StaticPens.GetRedPen(), new Point(xLocation, yLocation + SQUARE_SIZE), new Point(xLocation + SQUARE_SIZE, yLocation + SQUARE_SIZE));
             }
 
             if (directionsWithDoor.Contains(MoveableDirection.LEFT))
             {
+                if (Maze.MazeArray[x-1, y].IsDiscoverd == false)
+                {
+                    g.FillRectangle(new SolidBrush(Color.LawnGreen), xLocation - SQUARE_SIZE, yLocation, SQUARE_SIZE, SQUARE_SIZE);
+                }
                 g.DrawLine(StaticPens.GetRedPen(), new Point(xLocation, yLocation), new Point(xLocation, yLocation + SQUARE_SIZE));
             }
 
             if (directionsWithDoor.Contains(MoveableDirection.RIGHT))
             {
+                if (Maze.MazeArray[x+1, y].IsDiscoverd == false)
+                {
+                    g.FillRectangle(new SolidBrush(Color.LawnGreen), xLocation + SQUARE_SIZE, yLocation, SQUARE_SIZE, SQUARE_SIZE);
+                }
                 g.DrawLine(StaticPens.GetRedPen(), new Point(xLocation + SQUARE_SIZE, yLocation), new Point(xLocation + SQUARE_SIZE, yLocation + SQUARE_SIZE));
             }
         }
@@ -86,36 +102,53 @@ namespace DoolhofFormsApp
             Maze.MazeArray[startTile.position.x, startTile.position.y] = ApiResultMapper.MapResponseToMazeTile(startTile);
             DrawDiscoveredTile(startTile.position.x, startTile.position.y, startTile.openDirections.MapMoveableDirectionFromStringToArray());
 
-
             var currentTile = Maze.MazeArray[startTile.position.x, startTile.position.y];
             MoveableDirection cameFromDirection = MoveableDirection.UP;
 
-
             // Walk through maze
-            var canWalkMaze = true;
-            while (canWalkMaze)
+            while (true)
             {
                 if (currentTile.OpenDirections.Count() > 1 || (currentTile.X == 0 && currentTile.Y == 0)) // else dead end
                 {
-                    // dont go the direction that he came from
-                    foreach (var direction in currentTile.OpenDirections)
+                    var availableDirections = currentTile.OpenDirections;
+                    availableDirections.Remove(cameFromDirection);
+                    MoveableDirection chosenDirection;
+
+                    if (availableDirections.Count() == 1)
                     {
-                        // if (kwam niet van die richting vandaan)
-                        if (cameFromDirection != direction)
+                        chosenDirection = availableDirections[0];
+                    } 
+                    else if (availableDirections.Count() > 1) // junction found --> choose random direction
+                    {
+                        Random rnd = new Random();
+                        int index = rnd.Next(availableDirections.Count());
+                        chosenDirection = availableDirections[index];
+                    } 
+                    else // count is 0 --> walk back
+                    {
+                        break;
+                    }
+                    if (chosenDirection != null)
+                    {
+                        var newPosition = apiCaller.MoveInDirection(chosenDirection);
+
+                        try
                         {
-                            // ga dan die direction op
-                            var newPosition = apiCaller.MoveInDirection(direction);
                             DrawDiscoveredTile(newPosition.position.x, newPosition.position.y, newPosition.openDirections.MapMoveableDirectionFromStringToArray());
-                            Maze.MazeArray[newPosition.position.x, newPosition.position.y] = ApiResultMapper.MapResponseToMazeTile(newPosition);
-                            currentTile = Maze.MazeArray[newPosition.position.x, newPosition.position.y];
-                            cameFromDirection = DirectionHelper.OppositeDirection(direction);
                         }
+                        catch (Exception ex)
+                        {
+                            break;
+                        }
+                        Maze.MazeArray[newPosition.position.x, newPosition.position.y] = ApiResultMapper.MapResponseToMazeTile(newPosition);
+                        currentTile = Maze.MazeArray[newPosition.position.x, newPosition.position.y];
+                        cameFromDirection = DirectionHelper.OppositeDirection(chosenDirection);
                     }
                 }
                 else
                 {
                     // Dead end - now broken...
-                    canWalkMaze = false;
+                    break;
                 }
             }
 
