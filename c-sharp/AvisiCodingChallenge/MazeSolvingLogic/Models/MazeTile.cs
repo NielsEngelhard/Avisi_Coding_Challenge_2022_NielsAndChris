@@ -7,6 +7,8 @@
 
         public bool IsDiscoverd { get; set; }
 
+        public bool IsDiscoverdTwice { get; set; }
+
         public string Item { get; set; }
 
         public IList<MoveableDirection> OpenDirections { get; set; }
@@ -16,6 +18,7 @@
             X = x;
             Y = y;
             IsDiscoverd = false;
+            IsDiscoverdTwice = false;
         }
     }
 }

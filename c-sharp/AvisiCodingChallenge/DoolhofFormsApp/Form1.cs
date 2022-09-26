@@ -164,14 +164,8 @@ namespace DoolhofFormsApp
                     {
                         var newPosition = apiCaller.MoveInDirection(chosenDirection);
 
-                        try
-                        {
-                            DrawDiscoveredTile(newPosition.position.x, newPosition.position.y, newPosition.openDirections.MapMoveableDirectionFromStringToArray(), newPosition.item);
-                        }
-                        catch (Exception ex)
-                        {
-                            break;
-                        }
+                        DrawDiscoveredTile(newPosition.position.x, newPosition.position.y, newPosition.openDirections.MapMoveableDirectionFromStringToArray(), newPosition.item);
+
                         Maze.MazeArray[newPosition.position.x, newPosition.position.y] = ApiResultMapper.MapResponseToMazeTile(newPosition);
                         currentTile = Maze.MazeArray[newPosition.position.x, newPosition.position.y];
                         cameFromDirection = DirectionHelper.OppositeDirection(chosenDirection);
