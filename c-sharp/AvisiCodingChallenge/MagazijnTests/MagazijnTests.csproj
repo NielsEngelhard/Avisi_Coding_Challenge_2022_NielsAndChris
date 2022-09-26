@@ -20,4 +20,10 @@
     <ProjectReference Include="..\Magazijn\Magazijn.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="box-test-data.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
