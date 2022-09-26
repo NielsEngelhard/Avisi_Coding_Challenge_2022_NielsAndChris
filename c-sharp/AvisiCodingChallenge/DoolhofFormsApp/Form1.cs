@@ -62,6 +62,8 @@ namespace DoolhofFormsApp
                 {
                     g.FillRectangle(new SolidBrush(Color.LawnGreen), xLocation, yLocation - SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE);
                 }
+            } else // Draw wall because you cant go here
+            {
                 g.DrawLine(StaticPens.GetRedPen(), new Point(xLocation, yLocation), new Point(xLocation + SQUARE_SIZE, yLocation));
             }
 
@@ -71,6 +73,8 @@ namespace DoolhofFormsApp
                 {
                     g.FillRectangle(new SolidBrush(Color.LawnGreen), xLocation, yLocation + SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE);
                 }
+            } else// Draw wall because you cant go here
+            {
                 g.DrawLine(StaticPens.GetRedPen(), new Point(xLocation, yLocation + SQUARE_SIZE), new Point(xLocation + SQUARE_SIZE, yLocation + SQUARE_SIZE));
             }
 
@@ -80,6 +84,8 @@ namespace DoolhofFormsApp
                 {
                     g.FillRectangle(new SolidBrush(Color.LawnGreen), xLocation - SQUARE_SIZE, yLocation, SQUARE_SIZE, SQUARE_SIZE);
                 }
+            } else // Draw wall because you cant go here
+            {
                 g.DrawLine(StaticPens.GetRedPen(), new Point(xLocation, yLocation), new Point(xLocation, yLocation + SQUARE_SIZE));
             }
 
@@ -88,7 +94,9 @@ namespace DoolhofFormsApp
                 if (Maze.MazeArray[x+1, y].IsDiscoverd == false)
                 {
                     g.FillRectangle(new SolidBrush(Color.LawnGreen), xLocation + SQUARE_SIZE, yLocation, SQUARE_SIZE, SQUARE_SIZE);
-                }
+                } 
+            } else
+            { // Draw wall because you cant go here
                 g.DrawLine(StaticPens.GetRedPen(), new Point(xLocation + SQUARE_SIZE, yLocation), new Point(xLocation + SQUARE_SIZE, yLocation + SQUARE_SIZE));
             }
         }
