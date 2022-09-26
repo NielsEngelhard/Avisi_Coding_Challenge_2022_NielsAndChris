@@ -32,19 +32,31 @@ namespace MazeSolvingLogic.Mappers
             return response.ToArray();
         }
 
-        public static MazeTile MapResponseToMazeTile(MovementResponse response)
+        public static MazeTile MapResponseToMazeTile(MovementResponse response, bool isDiscoveredTwice = false)
         {
             if ((response.item != null) && response.item.type != "key")
             {
                 throw new Exception($"something unknown on this tile: {response.item.type}");
             }
-
-            return new MazeTile(response.position.x, response.position.y)
+            if (isDiscoveredTwice)
             {
-                IsDiscoverd = true,
-                Item = response.item?.keyType,
-                OpenDirections = response.openDirections.MapStringArrayToMoveableDirections()
-            };
+                return new MazeTile(response.position.x, response.position.y)
+                {
+                    IsDiscoverd = true,
+                    IsDiscoverdTwice = true,
+                    Item = response.item?.keyType,
+                    OpenDirections = response.openDirections.MapStringArrayToMoveableDirections()
+                };
+            }
+            else
+            {
+                return new MazeTile(response.position.x, response.position.y)
+                {
+                    IsDiscoverd = true,
+                    Item = response.item?.keyType,
+                    OpenDirections = response.openDirections.MapStringArrayToMoveableDirections()
+                };
+            }
         }
 
         public static IList<MoveableDirection> MapStringArrayToMoveableDirections(this string[] directionsStringArray)

@@ -48,36 +48,44 @@ namespace DoolhofFormsApp
             }
         }
 
-        public void DrawDiscoveredTile(int x, int y, MoveableDirection[] directionsWithDoor, Item? item = null)
+        public void DrawDiscoveredTile(int x, int y, MoveableDirection[] directionsWithDoor, bool tileAlreadyDiscovered, Item? item = null)
         {
             var xLocation = x * SQUARE_SIZE;
             var yLocation = y * SQUARE_SIZE;
 
             // First fill rectangle with color to indicate that it has been discovered
-            g.FillRectangle(new SolidBrush(Color.Blue), xLocation, yLocation, SQUARE_SIZE, SQUARE_SIZE);
+            if (!tileAlreadyDiscovered) // 1st time discovery
+            {
+                g.FillRectangle(new SolidBrush(Color.Blue), xLocation, yLocation, SQUARE_SIZE, SQUARE_SIZE);
+            } else // 2nd time discovery
+            {
+                g.FillRectangle(new SolidBrush(Color.DarkBlue), xLocation, yLocation, SQUARE_SIZE, SQUARE_SIZE);
+            }
 
             // Draw key discovered
             if (item != null)
-            {
-                if (item.type == "key")
                 {
-                    Pen pen = null;
-                    switch (item.keyType.ResolveKeyColor())
+                    if (item.type == "key")
                     {
-                        case KeyColor.GREEN:
-                            pen = new Pen(Color.Green);
-                            break;
-                        case KeyColor.RED:
-                            pen = new Pen(Color.Red);
-                            break;
-                        case KeyColor.ORANGE:
-                            pen = new Pen(Color.Orange);
-                            break;
-                    }
+                    //Pen pen = null;
+                    //switch (item.keyType.ResolveKeyColor())
+                    //{
+                    //    case KeyColor.GREEN:
+                    //        pen = new Pen(Color.Green);
+                    //        break;
+                    //    case KeyColor.RED:
+                    //        pen = new Pen(Color.Red);
+                    //        break;
+                    //    case KeyColor.ORANGE:
+                    //        pen = new Pen(Color.Orange);
+                    //        break;
+                    //}
 
-                    g.DrawEllipse(pen, x* SQUARE_SIZE, y* SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE);
+                        apiCaller.TakeKey(item.keyType);
+
+                        g.DrawEllipse(new Pen(Color.Orange), x * SQUARE_SIZE, y * SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE);
+                    }
                 }
-            }
 
             // Add borders to the directions where there is a door
             if (directionsWithDoor.Contains(MoveableDirection.UP))
@@ -132,7 +140,7 @@ namespace DoolhofFormsApp
             apiCaller.ResetMaze();
             var startTile = apiCaller.GetCurrentPosition();
             Maze.MazeArray[startTile.position.x, startTile.position.y] = ApiResultMapper.MapResponseToMazeTile(startTile);
-            DrawDiscoveredTile(startTile.position.x, startTile.position.y, startTile.openDirections.MapMoveableDirectionFromStringToArray());
+            DrawDiscoveredTile(startTile.position.x, startTile.position.y, startTile.openDirections.MapMoveableDirectionFromStringToArray(), false);
 
             var currentTile = Maze.MazeArray[startTile.position.x, startTile.position.y];
             MoveableDirection cameFromDirection = MoveableDirection.UP;
@@ -152,9 +160,79 @@ namespace DoolhofFormsApp
                     } 
                     else if (availableDirections.Count() > 1) // junction found --> choose random direction
                     {
+                        IList<MoveableDirection> dirs = new List<MoveableDirection>();
+                        foreach(var dir in availableDirections)
+                        {
+                            switch (dir)
+                            {
+                                case MoveableDirection.LEFT:
+                                    if (!Maze.MazeArray[currentTile.X - 1, currentTile.Y].IsDiscoverd)
+                                    {
+                                        dirs.Add(dir);
+                                    }
+                                    break;
+                                case MoveableDirection.RIGHT:
+                                    if (!Maze.MazeArray[currentTile.X + 1, currentTile.Y].IsDiscoverd)
+                                    {
+                                        dirs.Add(dir);
+                                    }
+                                    break;
+                                case MoveableDirection.UP:
+                                    if (!Maze.MazeArray[currentTile.X, currentTile.Y - 1].IsDiscoverd)
+                                    {
+                                        dirs.Add(dir);
+                                    }
+                                    break;
+                                case MoveableDirection.DOWN:
+                                    if (!Maze.MazeArray[currentTile.X, currentTile.Y + 1].IsDiscoverd)
+                                    {
+                                        dirs.Add(dir);
+                                    }
+                                    break;
+                            }
+                        }
                         Random rnd = new Random();
-                        int index = rnd.Next(availableDirections.Count());
-                        chosenDirection = availableDirections[index];
+                        try
+                        {
+                            int index = rnd.Next(dirs.Count());
+                            chosenDirection = dirs[index];
+                        }
+                        catch (Exception ex)
+                        {
+                            IList<MoveableDirection> dirs2 = new List<MoveableDirection>();
+                            foreach (var dir in availableDirections)
+                            {
+                                switch (dir)
+                                {
+                                    case MoveableDirection.LEFT:
+                                        if (!Maze.MazeArray[currentTile.X - 1, currentTile.Y].IsDiscoverdTwice)
+                                        {
+                                            dirs2.Add(dir);
+                                        }
+                                        break;
+                                    case MoveableDirection.RIGHT:
+                                        if (!Maze.MazeArray[currentTile.X + 1, currentTile.Y].IsDiscoverdTwice)
+                                        {
+                                            dirs2.Add(dir);
+                                        }
+                                        break;
+                                    case MoveableDirection.UP:
+                                        if (!Maze.MazeArray[currentTile.X, currentTile.Y - 1].IsDiscoverdTwice)
+                                        {
+                                            dirs2.Add(dir);
+                                        }
+                                        break;
+                                    case MoveableDirection.DOWN:
+                                        if (!Maze.MazeArray[currentTile.X, currentTile.Y + 1].IsDiscoverdTwice)
+                                        {
+                                            dirs2.Add(dir);
+                                        }
+                                        break;
+                                }
+                            }
+                            int index = rnd.Next(dirs2.Count());
+                            chosenDirection = dirs2[index];
+                        }
                     } 
                     else // count is 0 --> walk back
                     {
@@ -164,26 +242,37 @@ namespace DoolhofFormsApp
                     {
                         var newPosition = apiCaller.MoveInDirection(chosenDirection);
 
-                        DrawDiscoveredTile(newPosition.position.x, newPosition.position.y, newPosition.openDirections.MapMoveableDirectionFromStringToArray(), newPosition.item);
+                        DrawDiscoveredTile(newPosition.position.x, newPosition.position.y, newPosition.openDirections.MapMoveableDirectionFromStringToArray(), Maze.MazeArray[newPosition.position.x, newPosition.position.y].IsDiscoverd, newPosition.item);
 
-                        Maze.MazeArray[newPosition.position.x, newPosition.position.y] = ApiResultMapper.MapResponseToMazeTile(newPosition);
+                        Maze.MazeArray[newPosition.position.x, newPosition.position.y] = ApiResultMapper.MapResponseToMazeTile(newPosition, Maze.MazeArray[newPosition.position.x, newPosition.position.y].IsDiscoverd);
                         currentTile = Maze.MazeArray[newPosition.position.x, newPosition.position.y];
                         cameFromDirection = DirectionHelper.OppositeDirection(chosenDirection);
                     }
                 }
-                else
+                else // Er is nog maar 1 mogelijke deur (dead end)
                 {
+                    // if nog 1 mogelijke deur loop 1 terug
+                    DrawDiscoveredTile(currentTile.X, currentTile.Y, currentTile.OpenDirections.ToArray(), currentTile.IsDiscoverd);
+                    currentTile = WalkBackFromDeadEnd(cameFromDirection);
+                    DrawDiscoveredTile(currentTile.X, currentTile.Y, currentTile.OpenDirections.ToArray(), currentTile.IsDiscoverd);
+                    cameFromDirection = DirectionHelper.OppositeDirection(cameFromDirection);
+                    // 
                     // Dead end - now broken...
-                    break;
                     // WalkToTile(juntcion);
                 }
             }
 
         }
 
-        public void WalkToTile(int x, int y)
+        public MazeTile WalkBackFromDeadEnd(MoveableDirection cameFromDirection)
         {
-            // TODO implement
+            return ApiResultMapper.MapResponseToMazeTile(apiCaller.MoveInDirection(cameFromDirection), true);
+        }
+
+        public bool anyUndiscoveredTiles()
+        {
+
+            return false;
         }
     }
 }

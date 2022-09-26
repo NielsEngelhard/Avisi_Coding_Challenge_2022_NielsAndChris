@@ -54,9 +54,9 @@ namespace MazeSolvingLogic.Http
             return JsonSerializer.Deserialize<InventoryResponse>(response.Content.ReadAsStream());
         }
 
-        public InventoryResponse? TakeKey(KeyColor keyColor)
+        public InventoryResponse? TakeKey(string keyType)
         {
-            var path = $"/inventory/loot/key/{keyColor.ResolveKeyColor()}?secret={API_KEY}";
+            var path = $"/inventory/loot/key/{keyType}?secret={API_KEY}";
             var response = httpClient.PostAsync($"{API_BASE_ENDPOINT}{path}", null).Result;
 
             return JsonSerializer.Deserialize<InventoryResponse>(response.Content.ReadAsStream());
