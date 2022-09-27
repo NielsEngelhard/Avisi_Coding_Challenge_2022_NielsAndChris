@@ -116,5 +116,35 @@
             PutTensionOnWire(6);
             PrintWireBox();
         }
+
+        public void PrintRealScenario()
+        {
+            //7-8-1-0-6-5-4-3-2-9
+            SetWireValue(1, WireStatus.AANGESLOTEN_ZONDER_SPANNING);
+            SetWireValue(2, WireStatus.AANGESLOTEN_ZONDER_SPANNING);
+            SetWireValue(7, WireStatus.AANGESLOTEN_ZONDER_SPANNING);
+
+            PrintWireBox();
+            PutTensionOnWire(7);
+            PrintWireBox();
+            PutTensionOnWire(8);
+            PrintWireBox();
+            PutTensionOnWire(1);
+            PrintWireBox();
+            PutTensionOnWire(0);
+            PrintWireBox();
+            PutTensionOnWire(6);
+            PrintWireBox();
+            PutTensionOnWire(5);
+            PrintWireBox();
+            PutTensionOnWire(4);
+            PrintWireBox();
+            PutTensionOnWire(3);
+            PrintWireBox();
+            PutTensionOnWire(2);
+            PrintWireBox();
+            PutTensionOnWire(9);
+            PrintWireBox();
+        }
     }
 }
