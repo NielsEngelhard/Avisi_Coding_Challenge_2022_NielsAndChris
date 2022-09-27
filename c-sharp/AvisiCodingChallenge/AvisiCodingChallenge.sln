@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magazijn", "Magazijn\Magazi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doolhof", "Doolhof", "{5D678B6C-649A-4B2B-91D8-8292F4530F28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoolhofFormsApp", "DoolhofFormsApp\DoolhofFormsApp.csproj", "{FECF348D-2C2D-4341-B28F-B69F6BB391CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoolhofFormsApp", "DoolhofFormsApp\DoolhofFormsApp.csproj", "{FECF348D-2C2D-4341-B28F-B69F6BB391CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeSolvingLogic", "MazeSolvingLogic\MazeSolvingLogic.csproj", "{7150F834-C145-4C82-B421-B66054523ADA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MazeSolvingLogic", "MazeSolvingLogic\MazeSolvingLogic.csproj", "{7150F834-C145-4C82-B421-B66054523ADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoolhofFormsApp2", "DoolhofFormsApp2\DoolhofFormsApp2.csproj", "{2D88A122-9F41-408C-8973-3F6DA62682C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{7150F834-C145-4C82-B421-B66054523ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7150F834-C145-4C82-B421-B66054523ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7150F834-C145-4C82-B421-B66054523ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D88A122-9F41-408C-8973-3F6DA62682C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D88A122-9F41-408C-8973-3F6DA62682C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D88A122-9F41-408C-8973-3F6DA62682C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D88A122-9F41-408C-8973-3F6DA62682C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +62,7 @@ Global
 		{5D678B6C-649A-4B2B-91D8-8292F4530F28} = {E16FAC65-59F7-4B71-A830-490C798C438D}
 		{FECF348D-2C2D-4341-B28F-B69F6BB391CB} = {5D678B6C-649A-4B2B-91D8-8292F4530F28}
 		{7150F834-C145-4C82-B421-B66054523ADA} = {5D678B6C-649A-4B2B-91D8-8292F4530F28}
+		{2D88A122-9F41-408C-8973-3F6DA62682C8} = {5D678B6C-649A-4B2B-91D8-8292F4530F28}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37EE19D7-46C7-492A-8EF0-F8A3D13E1E88}

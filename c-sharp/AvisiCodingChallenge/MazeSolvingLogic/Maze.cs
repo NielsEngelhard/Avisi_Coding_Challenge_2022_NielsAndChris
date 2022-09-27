@@ -6,7 +6,7 @@ namespace MazeSolvingLogic
     public static class Maze
     {
 
-        public const int MAZE_SIZE = 100;
+        public const int MAZE_SIZE = 75;
 
 
         public static MazeTile[,] MazeArray { get; set; }

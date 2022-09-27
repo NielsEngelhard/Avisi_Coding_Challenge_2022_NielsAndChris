@@ -5,9 +5,13 @@
         public int X { get; set; }
         public int Y { get; set; }
 
-        public bool IsDiscoverd { get; set; }
+        [Obsolete("Use nTimesDiscovered instead")]
+        public bool IsDiscoverd { get; set; } // deprecated as of doolhof 2
 
-        public bool IsDiscoverdTwice { get; set; }
+        [Obsolete("Use nTimesDiscovered instead")]
+        public bool IsDiscoverdTwice { get; set; } // deprecated as of doolhof 2
+
+        public int nTimesDiscovered { get; set; }
 
         public string Item { get; set; }
 
@@ -17,8 +21,9 @@
         {
             X = x;
             Y = y;
-            IsDiscoverd = false;
-            IsDiscoverdTwice = false;
+            IsDiscoverd = false; // deprecated as of doolhof 2
+            IsDiscoverdTwice = false; // deprecated as of doolhof 2
+            nTimesDiscovered = 0;
         }
     }
 }
