@@ -89,7 +89,7 @@ def draw_maze():
         for y in range(GRID_SIZE):
             draw_tile(doolhof_canvas, x, y)
 
-    # API.reset_maze()
+    API.reset_maze()
 
     update_maze_with_current_pos(doolhof_canvas)
 
