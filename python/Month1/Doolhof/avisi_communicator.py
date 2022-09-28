@@ -44,6 +44,20 @@ class Api:
         path = f"/inventory/use/key/{key}/{door['direction']}"
         return self.post_request(path)
 
+    
+    def loot_fuse(self):
+        path = "/inventory/loot/fuse"
+        response = json.loads(self.post_request(path).text)
+        print(response['fuse'])
+        self.insert_fuse()
+        return response
+
+
+    def insert_fuse(self):
+        path = "/fuseholder"
+        response = json.loads(self.post_request(path).text)
+        print(response['flag'])
+        return response['flag']
 
     def post_request(self, path):
         URL = self.endpoint + path + f"?secret={self.api_key}"
