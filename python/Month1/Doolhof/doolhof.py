@@ -190,7 +190,7 @@ def prev_direction(moved_in_direction) -> Tile:
 def auto_navigate_maze(_): # tremeux (eigenlijk trémaux) algorithm
     global prev_dir
     if (API.get_current_pos().x ==0 and API.get_current_pos().y == 0):
-        auto_move(doolhof_canvas, "RIGHTaaaaaaaa")
+        auto_move(doolhof_canvas, "RIGHT")
     while(True):
         current_pos = API.get_current_pos() 
         available_dirs = current_pos.open_dirs
