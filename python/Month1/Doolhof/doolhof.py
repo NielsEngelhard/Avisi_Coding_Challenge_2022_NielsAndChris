@@ -1,4 +1,3 @@
-import random
 from tkinter import *
 from tkinter import ttk
 from avisi_communicator import Api
