@@ -187,99 +187,99 @@ def prev_direction(moved_in_direction) -> Tile:
         return "LEFT"
 
 
-def auto_navigate_maze(_):
+def auto_navigate_maze(_): # tremeux (eigenlijk trémaux) algorithm
     global prev_dir
     if (API.get_current_pos().x ==0 and API.get_current_pos().y == 0):
-        auto_move(doolhof_canvas, "RIGHT")
+        auto_move(doolhof_canvas, "RIGHTaaaaaaaa")
     while(True):
-        try:
-            current_pos = API.get_current_pos() 
-            available_dirs = current_pos.open_dirs
+        current_pos = API.get_current_pos() 
+        available_dirs = current_pos.open_dirs
 
-            if (len(current_pos.open_dirs) < 2):
-                if (hasattr(tile_map[current_pos.x][current_pos.y], 'n_visited')):
-                    tile_map[current_pos.x][current_pos.y].n_visited += 1
-                auto_move(doolhof_canvas, current_pos.open_dirs[0])
-
-            if (len(current_pos.open_dirs) > 2): # Arrived at a junction
-                visited = 0
-                for dir in current_pos.open_dirs:
-                    if dir == "LEFT":
-                        if (hasattr(tile_map[current_pos.x-1][current_pos.y], 'n_visited')):
-                            if (tile_map[current_pos.x-1][current_pos.y].n_visited > 0):
-                                visited+=1
-                    elif dir == "RIGHT":
-                        if (hasattr(tile_map[current_pos.x+1][current_pos.y], 'n_visited')):
-                            if (tile_map[current_pos.x+1][current_pos.y].n_visited > 0):
-                                visited+=1
-                    elif dir == "DOWN":
-                        if (hasattr(tile_map[current_pos.x][current_pos.y+1], 'n_visited')):
-                            if (tile_map[current_pos.x][current_pos.y+1].n_visited > 0):
-                                visited+=1
-                    elif dir == "UP":
-                        if (hasattr(tile_map[current_pos.x][current_pos.y-1], 'n_visited')):
-                            if (tile_map[current_pos.x][current_pos.y-1].n_visited > 0):
-                                visited+=1
-                
-                total_open_dirs = len(current_pos.open_dirs)
-                if (visited == total_open_dirs):
-                    tile_map[current_pos.x][current_pos.y].n_visited = 2
-                else:
-                    tile_map[current_pos.x][current_pos.y].n_visited = 1
-
-            if (len(current_pos.open_dirs) > 1):
-                for dir in available_dirs:
-                    if dir == "LEFT":
-                        potential_next = tile_map[current_pos.x-1][current_pos.y]
-                        potential_direction = "LEFT" 
-                        if (hasattr(potential_next, 'n_visited')):
-                            if (potential_next.n_visited < tile_map[current_pos.x][current_pos.y].n_visited):
-                                chosen_direction = potential_direction
-                                auto_move(doolhof_canvas, chosen_direction)
-                                break
-                        else:
-                            chosen_direction = potential_direction
-                            auto_move(doolhof_canvas, chosen_direction)
-                            break
-                    elif dir == "RIGHT":
-                        potential_next = tile_map[current_pos.x+1][current_pos.y]
-                        potential_direction = "RIGHT"
-                        if (hasattr(potential_next, 'n_visited')):
-                            if (potential_next.n_visited < tile_map[current_pos.x][current_pos.y].n_visited):
-                                chosen_direction = potential_direction
-                                auto_move(doolhof_canvas, chosen_direction)
-                                break
-                        else:
-                            chosen_direction = potential_direction
-                            auto_move(doolhof_canvas, chosen_direction)
-                            break
-                    elif dir == "DOWN":
-                        potential_next = tile_map[current_pos.x][current_pos.y+1]
-                        potential_direction = "DOWN"
-                        if (hasattr(potential_next, 'n_visited')):
-                            if (potential_next.n_visited < tile_map[current_pos.x][current_pos.y].n_visited):
-                                chosen_direction = potential_direction
-                                auto_move(doolhof_canvas, chosen_direction)
-                                break
-                        else:
-                            chosen_direction = potential_direction
-                            auto_move(doolhof_canvas, chosen_direction)
-                            break
-                    elif dir == "UP":
-                        potential_next = tile_map[current_pos.x][current_pos.y-1]
-                        potential_direction = "UP"
-                        if (hasattr(potential_next, 'n_visited')):
-                            if (potential_next.n_visited < tile_map[current_pos.x][current_pos.y].n_visited):
-                                chosen_direction = potential_direction
-                                auto_move(doolhof_canvas, chosen_direction)
-                                break
-                        else:
-                            chosen_direction = potential_direction
-                            auto_move(doolhof_canvas, chosen_direction)
-                            break
-            root.update()
-        except KeyboardInterrupt:
+        if (current_pos.x == 0 and current_pos.y == 0):
             break
+
+        if (len(current_pos.open_dirs) < 2):
+            if (hasattr(tile_map[current_pos.x][current_pos.y], 'n_visited')):
+                tile_map[current_pos.x][current_pos.y].n_visited += 1
+            auto_move(doolhof_canvas, current_pos.open_dirs[0])
+
+        if (len(current_pos.open_dirs) > 2): # Arrived at a junction
+            visited = 0
+            for dir in current_pos.open_dirs:
+                if dir == "LEFT":
+                    if (hasattr(tile_map[current_pos.x-1][current_pos.y], 'n_visited')):
+                        if (tile_map[current_pos.x-1][current_pos.y].n_visited > 0):
+                            visited+=1
+                elif dir == "RIGHT":
+                    if (hasattr(tile_map[current_pos.x+1][current_pos.y], 'n_visited')):
+                        if (tile_map[current_pos.x+1][current_pos.y].n_visited > 0):
+                            visited+=1
+                elif dir == "DOWN":
+                    if (hasattr(tile_map[current_pos.x][current_pos.y+1], 'n_visited')):
+                        if (tile_map[current_pos.x][current_pos.y+1].n_visited > 0):
+                            visited+=1
+                elif dir == "UP":
+                    if (hasattr(tile_map[current_pos.x][current_pos.y-1], 'n_visited')):
+                        if (tile_map[current_pos.x][current_pos.y-1].n_visited > 0):
+                            visited+=1
+            
+            total_open_dirs = len(current_pos.open_dirs)
+            if (visited == total_open_dirs):
+                tile_map[current_pos.x][current_pos.y].n_visited = 2
+            else:
+                tile_map[current_pos.x][current_pos.y].n_visited = 1
+
+        if (len(current_pos.open_dirs) > 1):
+            for dir in available_dirs:
+                if dir == "LEFT":
+                    potential_next = tile_map[current_pos.x-1][current_pos.y]
+                    potential_direction = "LEFT" 
+                    if (hasattr(potential_next, 'n_visited')):
+                        if (potential_next.n_visited < tile_map[current_pos.x][current_pos.y].n_visited):
+                            chosen_direction = potential_direction
+                            auto_move(doolhof_canvas, chosen_direction)
+                            break
+                    else:
+                        chosen_direction = potential_direction
+                        auto_move(doolhof_canvas, chosen_direction)
+                        break
+                elif dir == "RIGHT":
+                    potential_next = tile_map[current_pos.x+1][current_pos.y]
+                    potential_direction = "RIGHT"
+                    if (hasattr(potential_next, 'n_visited')):
+                        if (potential_next.n_visited < tile_map[current_pos.x][current_pos.y].n_visited):
+                            chosen_direction = potential_direction
+                            auto_move(doolhof_canvas, chosen_direction)
+                            break
+                    else:
+                        chosen_direction = potential_direction
+                        auto_move(doolhof_canvas, chosen_direction)
+                        break
+                elif dir == "DOWN":
+                    potential_next = tile_map[current_pos.x][current_pos.y+1]
+                    potential_direction = "DOWN"
+                    if (hasattr(potential_next, 'n_visited')):
+                        if (potential_next.n_visited < tile_map[current_pos.x][current_pos.y].n_visited):
+                            chosen_direction = potential_direction
+                            auto_move(doolhof_canvas, chosen_direction)
+                            break
+                    else:
+                        chosen_direction = potential_direction
+                        auto_move(doolhof_canvas, chosen_direction)
+                        break
+                elif dir == "UP":
+                    potential_next = tile_map[current_pos.x][current_pos.y-1]
+                    potential_direction = "UP"
+                    if (hasattr(potential_next, 'n_visited')):
+                        if (potential_next.n_visited < tile_map[current_pos.x][current_pos.y].n_visited):
+                            chosen_direction = potential_direction
+                            auto_move(doolhof_canvas, chosen_direction)
+                            break
+                    else:
+                        chosen_direction = potential_direction
+                        auto_move(doolhof_canvas, chosen_direction)
+                        break
+        root.update()
 
 
 def draw_locked_doors(locked_doors, current_tile):
