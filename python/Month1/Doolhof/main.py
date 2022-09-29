@@ -5,3 +5,5 @@ if __name__ == '__main__':
     doolhof.draw_maze()
     exitCode = doolhof.run()
     sys.exit(exitCode)
+
+    # De-sTrOOm-WErkT-wEeR
