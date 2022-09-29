@@ -281,7 +281,6 @@ def auto_navigate_maze(): # tremeux (eigenlijk trémaux) algorithm
                         chosen_direction = potential_direction
                         auto_move(doolhof_canvas, chosen_direction)
                         break
-        # root.update()
     root.after(1, auto_navigate_maze)
 
 
