@@ -12,6 +12,7 @@ tile_map = [[Tile for i in range(GRID_SIZE)] for j in range(GRID_SIZE)]
 doolhof_canvas = None
 prev_dir = ""
 all_locked_doors = []
+running = False
 
 
 def draw_tile(canvas: Canvas, x, y, open_directions = [], n_visited = 0, is_current_position = False, is_key = False, is_locked_door = False, is_navigable = False, can_be_unlocked = False):
@@ -119,7 +120,8 @@ def draw_maze():
 
     doolhof_canvas.bind_all("<Key>", on_keypress)
     
-    doolhof_canvas.bind_all("<space>", auto_navigate_maze)
+    doolhof_canvas.bind_all("<space>", start_stop_nav)
+    root.after(1000, auto_navigate_maze)
 
 
 def update_maze_with_current_pos(canvas):
@@ -186,16 +188,17 @@ def prev_direction(moved_in_direction) -> Tile:
         return "LEFT"
 
 
-def auto_navigate_maze(_): # tremeux (eigenlijk trémaux) algorithm
-    global prev_dir
-    if (API.get_current_pos().x ==0 and API.get_current_pos().y == 0):
-        auto_move(doolhof_canvas, "RIGHT")
-    while(True):
+def auto_navigate_maze(): # tremeux (eigenlijk trémaux) algorithm
+    global running
+    if (running):
+        global prev_dir
+        if (API.get_current_pos().x ==0 and API.get_current_pos().y == 0):
+            auto_move(doolhof_canvas, "RIGHT")
         current_pos = API.get_current_pos() 
         available_dirs = current_pos.open_dirs
 
         if (current_pos.x == 0 and current_pos.y == 0):
-            break
+            running = False
 
         if (len(current_pos.open_dirs) < 2):
             if (hasattr(tile_map[current_pos.x][current_pos.y], 'n_visited')):
@@ -278,7 +281,8 @@ def auto_navigate_maze(_): # tremeux (eigenlijk trémaux) algorithm
                         chosen_direction = potential_direction
                         auto_move(doolhof_canvas, chosen_direction)
                         break
-        root.update()
+        # root.update()
+    root.after(1, auto_navigate_maze)
 
 
 def draw_locked_doors(locked_doors, current_tile):
@@ -345,6 +349,11 @@ def check_doors_and_keys():
 
 def mark_unlockable_door(door):
     draw_tile(doolhof_canvas, door['x'], door['y'], open_directions=[[door['direction']]], n_visited=0, can_be_unlocked=True)
+
+
+def start_stop_nav(_):
+    global running
+    running = not running
 
 
 def run():
