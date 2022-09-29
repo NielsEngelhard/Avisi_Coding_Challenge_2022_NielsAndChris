@@ -1,4 +1,3 @@
-from urllib import request
 import requests
 import json
 from models import Tile

@@ -310,8 +310,7 @@ def draw_locked_doors(locked_doors, current_tile):
         if(locked_door not in all_locked_doors):
             all_locked_doors.append(locked_door)
             print(f"LOCKED DOOR(S) FOUND: {locked_door}")
-
-        
+       
 
 def draw_possible_directions(current_tile):
     for direction in current_tile.open_dirs:
