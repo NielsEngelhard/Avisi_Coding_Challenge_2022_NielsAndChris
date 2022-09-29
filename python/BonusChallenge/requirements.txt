@@ -1,0 +1,7 @@
+gym == 0.18.3
+gym_unity == 0.27.0
+mlagents-envs == 0.27.0
+protobuf == 3.20.*
+
+# pip install -r .\requirements.txt
+# C:\Users\Chris\AppData\Local\Programs\Python\Python38\python.exe -m venv venv            python versie 3.8.10
