@@ -29,7 +29,9 @@ for (var i=0; i<World.nTrees; i++)
 bool allTreesHaveWater = false;
 while (!allTreesHaveWater)
 {
+    // Grab big bottles
 
+    // Grab hose and then spray everything else down
 
     if (trees.Last().TreeHasEnoughWater())
     {
