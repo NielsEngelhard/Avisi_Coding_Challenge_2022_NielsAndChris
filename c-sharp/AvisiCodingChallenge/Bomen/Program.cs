@@ -2,10 +2,11 @@
 
 
 using Bomen;
+using Bomen.Waterers;
 
-var waterArsenal = new WaterArsenal();
+var arsenal = new WaterArsenal();
 
-waterArsenal.PrintArsenalValues();
+arsenal.PrintArsenalValues();
 
 // RULES
 // There are 50 trees
@@ -27,14 +28,40 @@ for (var i=0; i<World.nTrees; i++)
 }
 
 bool allTreesHaveWater = false;
-while (!allTreesHaveWater)
-{
-    // Grab big bottles
 
-    // Grab hose and then spray everything else down
+float time = 0;
 
-    if (trees.Last().TreeHasEnoughWater())
-    {
-        allTreesHaveWater = true;
-    }
-}
+Waterer currentItem = arsenal.GardeningHose;
+
+time += currentItem.GrabItem();
+time += currentItem.WalkToTree();
+
+var currentTreeIndex = 0;
+
+//while (!allTreesHaveWater)
+//{
+//    var secondsOfWateringTree = 0.5f;
+//    var waterGivenStats = currentItem.WaterTreeByTimeInSeconds(secondsOfWateringTree);
+
+//    Console.WriteLine($"Water current tree with {waterGivenStats.WaterLeftInCurrentItem}L water which costs {waterGivenStats.DurationOfGivingWater} second");
+//    time += waterGivenStats.DurationOfGivingWater;
+
+//    // Current tree does not need any more water
+//    if (trees[currentTreeIndex].WaterGivenToTree == 3)
+//    {
+//        // Go to next tree
+//        Console.WriteLine($"Switching to new tree (index {currentTreeIndex})");
+//        time += currentItem.SwitchTreeTimeInSeconds;
+//        currentTreeIndex++;
+//    }
+    
+
+//    if (trees.Last().TreeHasEnoughWater())
+//    {
+//        allTreesHaveWater = true;
+//    }
+//}
+
+arsenal.PrintXYsPerWaterer();
+
+// TODO: Create for each of the 4 equipments a X,Y table where X is trees watered and y is duration in seconds

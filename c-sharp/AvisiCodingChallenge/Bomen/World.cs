@@ -10,4 +10,15 @@ public static class World
         // Idk, look at the best options to do??
     }
 
+    public static List<Tree> Get50TreesList()
+    {
+        var list = new List<Tree>();
+        for (var i=0; i<50; i++)
+        {
+            list.Add(new Tree());
+        }
+
+        return list;
+    }
+
 }
