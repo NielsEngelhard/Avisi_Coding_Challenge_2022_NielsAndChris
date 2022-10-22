@@ -69,7 +69,7 @@ def run():
     y_axis_sb = water_trees([small_bottles])
     y_axis_bb = water_trees([big_bottles])
 
-    fig, axis = plt.subplots(2)
+    _, axis = plt.subplots(2)
 
     axis[0].plot(range(len(y_axis_fh)), y_axis_fh, label="Fire Hose")
     axis[0].plot(range(len(y_axis_gh)), y_axis_gh, label="Garden Hose")
