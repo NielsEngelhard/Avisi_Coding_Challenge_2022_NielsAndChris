@@ -54,7 +54,7 @@ var currentTreeIndex = 0;
 //        time += currentItem.SwitchTreeTimeInSeconds;
 //        currentTreeIndex++;
 //    }
-    
+
 
 //    if (trees.Last().TreeHasEnoughWater())
 //    {
@@ -62,6 +62,9 @@ var currentTreeIndex = 0;
 //    }
 //}
 
-arsenal.PrintXYsPerWaterer();
+// One specific plt
+//arsenal.PrintXYsPerWaterer();
+
+arsenal.PrintMultipleStagesXY();
 
 // TODO: Create for each of the 4 equipments a X,Y table where X is trees watered and y is duration in seconds
