@@ -1,4 +1,3 @@
-from cProfile import label
 from models import Tree, BigBottle, SmallBottle, GardenHose, FireHose
 import matplotlib.pyplot as plt
 
