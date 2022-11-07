@@ -98,6 +98,8 @@ namespace Bomen
             var strippedString = ConvertCrazyJsonStringToNormalJson(weirdJsonString);
             Console.WriteLine("");
             Console.WriteLine("Real: " + strippedString);
+
+            // TEST:: Eerst Fire hose gebruiken voor 2? (kijk stats) waterers. Dan wisselen naar small en big bottles
         }
 
         public static string MyDictionaryToJson(Dictionary<int, float> dict)

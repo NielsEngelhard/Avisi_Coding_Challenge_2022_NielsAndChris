@@ -11,6 +11,7 @@ namespace Bomen.Statistics
             var watererWithWaterAvailable = true;
             var watererI = 0;
             var waterer = watererList[watererI];
+            Console.WriteLine($"Switching waterer to {waterer.Name}. Total time passed is {_seconds} seconds");
 
             // Reset seconds
             _seconds = 0;
@@ -27,6 +28,12 @@ namespace Bomen.Statistics
 
             while(trees.Last().WaterGivenToTree != 3 && watererWithWaterAvailable) // while last tree is not watered
             {
+
+                if (treeI == 48)
+                {
+                    Console.WriteLine("");
+                }
+
                 if (currentTree.TreeHasEnoughWater())
                 {
                     if (trees.Last().WaterGivenToTree != 3)
@@ -109,12 +116,45 @@ namespace Bomen.Statistics
 
             while (trees.Last().WaterGivenToTree != 3) // while last tree is not watered
             {
-                if (treeI == 26)
+                if (treeI == 47)
                 {
-                    Console.WriteLine("breakpoint line");
+                    Console.WriteLine("");
                 }
 
-                if (watererWithWaterAvailable) {
+                if (watererWithWaterAvailable) { // UNUSED IF
+                    if (waterer.IsEmpty()) // waterer is empty
+                    {
+                        if (waterer == watererList.Last()) // a new waterer is NOT available
+                        {
+                            if (triggerSecondTime) // second line is big bottles, 
+                            {
+                                watererList = second;
+                                watererI = 0;
+                                waterer = watererList[watererI];
+                                GrabWaterer(waterer);
+                                Console.WriteLine($"Switching waterer to {waterer.Name}. Total time passed is {_seconds} seconds");
+                                watererWithWaterAvailable = true;
+                                triggerSecondTime = false; // Dont trigger this if again, but trigger the else now
+                            }
+                            else // third line is fire hose
+                            {
+                                watererList = third;
+                                watererI = 0;
+                                watererWithWaterAvailable = true;
+                                waterer = watererList[watererI];
+                                GrabWaterer(waterer);
+                                Console.WriteLine($"Switching waterer to {waterer.Name}. Total time passed is {_seconds} seconds");
+                            }
+                        }
+                        else // a new waterer is available
+                        {
+                            // Switch to new waterer
+                            watererI++;
+                            waterer = watererList[watererI];
+                            GrabWaterer(waterer);
+                        }
+                    }
+
                     if (currentTree.TreeHasEnoughWater())
                     {
                         if (trees.Last().WaterGivenToTree != 3)
@@ -125,21 +165,6 @@ namespace Bomen.Statistics
 
                             // Add seconds for switching to new tree
                             WalkToNextTree(waterer);
-                        }
-                    }
-
-                    if (waterer.IsEmpty()) // waterer is empty
-                    {
-                        if (waterer == watererList.Last()) // a new waterer is NOT available
-                        {
-                            watererWithWaterAvailable = false;
-                        }
-                        else // a new waterer is available
-                        {
-                            // Switch to new waterer
-                            watererI++;
-                            waterer = watererList[watererI];
-                            GrabWaterer(waterer);
                         }
                     }
 
@@ -157,7 +182,9 @@ namespace Bomen.Statistics
                         // Give 1L water to tree
                         var waterToGiveInL = 1;
                         currentTree.WaterTree(waterToGiveInL);
-                        _seconds += waterer.WaterTreeByWaterToGive(waterToGiveInL).DurationOfGivingWater;
+                        var durationOfWatering  = waterer.WaterTreeByWaterToGive(waterToGiveInL).DurationOfGivingWater;
+                        Console.WriteLine($"Watering tree {treeI + 1}/{trees.Count} with {waterer.Name} which took {durationOfWatering} seconds");
+                        _seconds += durationOfWatering;
 
                         if (currentTree.TreeHasEnoughWater())
                         {
@@ -167,20 +194,7 @@ namespace Bomen.Statistics
                     }
                 } else
                 {
-                    if (triggerSecondTime) // second line is big bottles, 
-                    {
-                        watererList = second;
-                        watererI = 0;
-                        waterer = watererList[watererI];
-                        watererWithWaterAvailable = true;
-                        triggerSecondTime = false; // Dont trigger this if again, but trigger the else now
-                    } else // third line is fire hose
-                    {
-                        watererList = third;
-                        watererI = 0;
-                        watererWithWaterAvailable = true;
-                        waterer = watererList[watererI];
-                    }
+                    // not valid anymore
                 }
             }
 
@@ -190,11 +204,13 @@ namespace Bomen.Statistics
         private static void GrabWaterer(Waterer waterer)
         {
             _seconds += waterer.TakeNewTimeInSeconds;
+            Console.WriteLine($"Grab new waterer {waterer.Name}");
         }
 
         private static void WalkToNextTree(Waterer waterer)
         {
             _seconds += waterer.SwitchTreeTimeInSeconds;
+            Console.WriteLine($"Walk to next tree with {waterer.Name} in hand. Total seconds is {_seconds} seconds");
         }
 
     }

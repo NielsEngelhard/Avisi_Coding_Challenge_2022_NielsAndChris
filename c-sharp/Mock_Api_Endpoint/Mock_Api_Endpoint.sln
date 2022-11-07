@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mock_Api_Endpoint", "Mock_Api_Endpoint\Mock_Api_Endpoint.csproj", "{05A453C7-ECEF-4846-97B5-822D5850DD26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05A453C7-ECEF-4846-97B5-822D5850DD26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A453C7-ECEF-4846-97B5-822D5850DD26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A453C7-ECEF-4846-97B5-822D5850DD26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A453C7-ECEF-4846-97B5-822D5850DD26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65EFAC94-C7AA-4EF6-B4B1-087A88C8746B}
+	EndGlobalSection
+EndGlobal

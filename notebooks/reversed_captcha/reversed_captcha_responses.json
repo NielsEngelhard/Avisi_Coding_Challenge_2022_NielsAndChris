@@ -1,0 +1,5004 @@
+{
+    "values": [
+        {
+            "status": "ok",
+            "result": "2.2738537e-05",
+            "label": "tench"
+        },
+        {
+            "status": "ok",
+            "result": "6.485971e-05",
+            "label": "goldfish"
+        },
+        {
+            "status": "ok",
+            "result": "2.0885967e-05",
+            "label": "great_white_shark"
+        },
+        {
+            "status": "ok",
+            "result": "8.64516e-06",
+            "label": "tiger_shark"
+        },
+        {
+            "status": "ok",
+            "result": "0.00015524145",
+            "label": "hammerhead"
+        },
+        {
+            "status": "ok",
+            "result": "2.2758975e-05",
+            "label": "electric_ray"
+        },
+        {
+            "status": "ok",
+            "result": "4.2914976e-06",
+            "label": "stingray"
+        },
+        {
+            "status": "ok",
+            "result": "1.9030791e-05",
+            "label": "cock"
+        },
+        {
+            "status": "ok",
+            "result": "0.0024356744",
+            "label": "hen"
+        },
+        {
+            "status": "ok",
+            "result": "1.5629968e-05",
+            "label": "ostrich"
+        },
+        {
+            "status": "ok",
+            "result": "5.7096404e-05",
+            "label": "brambling"
+        },
+        {
+            "status": "ok",
+            "result": "8.165839e-05",
+            "label": "goldfinch"
+        },
+        {
+            "status": "ok",
+            "result": "2.6170543e-05",
+            "label": "house_finch"
+        },
+        {
+            "status": "ok",
+            "result": "0.00013893141",
+            "label": "junco"
+        },
+        {
+            "status": "ok",
+            "result": "0.00014150678",
+            "label": "indigo_bunting"
+        },
+        {
+            "status": "ok",
+            "result": "0.00020936131",
+            "label": "robin"
+        },
+        {
+            "status": "ok",
+            "result": "1.4946109e-05",
+            "label": "bulbul"
+        },
+        {
+            "status": "ok",
+            "result": "0.00039403496",
+            "label": "jay"
+        },
+        {
+            "status": "ok",
+            "result": "0.00024104207",
+            "label": "magpie"
+        },
+        {
+            "status": "ok",
+            "result": "6.926201e-05",
+            "label": "chickadee"
+        },
+        {
+            "status": "ok",
+            "result": "6.770315e-05",
+            "label": "water_ouzel"
+        },
+        {
+            "status": "ok",
+            "result": "0.0005649877",
+            "label": "kite"
+        },
+        {
+            "status": "ok",
+            "result": "0.00018491832",
+            "label": "bald_eagle"
+        },
+        {
+            "status": "ok",
+            "result": "0.00013527225",
+            "label": "vulture"
+        },
+        {
+            "status": "ok",
+            "result": "9.454233e-06",
+            "label": "great_grey_owl"
+        },
+        {
+            "status": "ok",
+            "result": "5.794025e-05",
+            "label": "European_fire_salamander"
+        },
+        {
+            "status": "ok",
+            "result": "6.573533e-05",
+            "label": "common_newt"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "eft"
+        },
+        {
+            "status": "ok",
+            "result": "0.00012156823",
+            "label": "spotted_salamander"
+        },
+        {
+            "status": "ok",
+            "result": "1.3238703e-05",
+            "label": "axolotl"
+        },
+        {
+            "status": "ok",
+            "result": "0.00011133324",
+            "label": "bullfrog"
+        },
+        {
+            "status": "ok",
+            "result": "2.3045257e-05",
+            "label": "tree_frog"
+        },
+        {
+            "status": "ok",
+            "result": "0.00018903783",
+            "label": "tailed_frog"
+        },
+        {
+            "status": "ok",
+            "result": "0.00010037168",
+            "label": "loggerhead"
+        },
+        {
+            "status": "ok",
+            "result": "2.5585148e-05",
+            "label": "leatherback_turtle"
+        },
+        {
+            "status": "ok",
+            "result": "2.8616305e-05",
+            "label": "mud_turtle"
+        },
+        {
+            "status": "ok",
+            "result": "8.256044e-06",
+            "label": "terrapin"
+        },
+        {
+            "status": "ok",
+            "result": "9.650333e-06",
+            "label": "box_turtle"
+        },
+        {
+            "status": "ok",
+            "result": "3.802689e-05",
+            "label": "banded_gecko"
+        },
+        {
+            "status": "ok",
+            "result": "0.0006357242",
+            "label": "common_iguana"
+        },
+        {
+            "status": "ok",
+            "result": "0.00032453274",
+            "label": "American_chameleon"
+        },
+        {
+            "status": "ok",
+            "result": "0.0003411872",
+            "label": "whiptail"
+        },
+        {
+            "status": "ok",
+            "result": "4.5248044e-06",
+            "label": "agama"
+        },
+        {
+            "status": "ok",
+            "result": "0.00018081669",
+            "label": "frilled_lizard"
+        },
+        {
+            "status": "ok",
+            "result": "6.4873544e-05",
+            "label": "alligator_lizard"
+        },
+        {
+            "status": "ok",
+            "result": "5.6999368e-05",
+            "label": "Gila_monster"
+        },
+        {
+            "status": "ok",
+            "result": "7.5225085e-05",
+            "label": "green_lizard"
+        },
+        {
+            "status": "ok",
+            "result": "1.7524335e-05",
+            "label": "African_chameleon"
+        },
+        {
+            "status": "ok",
+            "result": "1.77167e-05",
+            "label": "Komodo_dragon"
+        },
+        {
+            "status": "ok",
+            "result": "6.179704e-05",
+            "label": "African_crocodile"
+        },
+        {
+            "status": "ok",
+            "result": "7.434071e-05",
+            "label": "American_alligator"
+        },
+        {
+            "status": "ok",
+            "result": "1.3621842e-05",
+            "label": "triceratops"
+        },
+        {
+            "status": "ok",
+            "result": "2.11713e-05",
+            "label": "thunder_snake"
+        },
+        {
+            "status": "ok",
+            "result": "4.7697627e-05",
+            "label": "ringneck_snake"
+        },
+        {
+            "status": "ok",
+            "result": "1.1092544e-05",
+            "label": "hognose_snake"
+        },
+        {
+            "status": "ok",
+            "result": "4.9237704e-05",
+            "label": "green_snake"
+        },
+        {
+            "status": "ok",
+            "result": "4.278076e-05",
+            "label": "king_snake"
+        },
+        {
+            "status": "ok",
+            "result": "1.0888873e-05",
+            "label": "garter_snake"
+        },
+        {
+            "status": "ok",
+            "result": "0.000109783985",
+            "label": "water_snake"
+        },
+        {
+            "status": "ok",
+            "result": "1.7749411e-05",
+            "label": "vine_snake"
+        },
+        {
+            "status": "ok",
+            "result": "4.401528e-05",
+            "label": "night_snake"
+        },
+        {
+            "status": "ok",
+            "result": "0.0010468197",
+            "label": "boa_constrictor"
+        },
+        {
+            "status": "ok",
+            "result": "6.5750166e-05",
+            "label": "rock_python"
+        },
+        {
+            "status": "ok",
+            "result": "1.0989033e-06",
+            "label": "Indian_cobra"
+        },
+        {
+            "status": "ok",
+            "result": "1.168499e-05",
+            "label": "green_mamba"
+        },
+        {
+            "status": "ok",
+            "result": "0.00015381532",
+            "label": "sea_snake"
+        },
+        {
+            "status": "ok",
+            "result": "3.631645e-05",
+            "label": "horned_viper"
+        },
+        {
+            "status": "ok",
+            "result": "2.0864734e-05",
+            "label": "diamondback"
+        },
+        {
+            "status": "ok",
+            "result": "2.6172762e-05",
+            "label": "sidewinder"
+        },
+        {
+            "status": "ok",
+            "result": "3.8333183e-05",
+            "label": "trilobite"
+        },
+        {
+            "status": "ok",
+            "result": "0.0001372507",
+            "label": "harvestman"
+        },
+        {
+            "status": "ok",
+            "result": "2.5654364e-05",
+            "label": "scorpion"
+        },
+        {
+            "status": "ok",
+            "result": "1.6414573e-05",
+            "label": "black_and_gold_garden_spider"
+        },
+        {
+            "status": "ok",
+            "result": "9.163425e-05",
+            "label": "barn_spider"
+        },
+        {
+            "status": "ok",
+            "result": "1.6414573e-05",
+            "label": "garden_spider"
+        },
+        {
+            "status": "ok",
+            "result": "7.873825e-07",
+            "label": "black_widow"
+        },
+        {
+            "status": "ok",
+            "result": "2.5835125e-05",
+            "label": "tarantula"
+        },
+        {
+            "status": "ok",
+            "result": "1.0984056e-05",
+            "label": "wolf_spider"
+        },
+        {
+            "status": "ok",
+            "result": "4.3608477e-05",
+            "label": "tick"
+        },
+        {
+            "status": "ok",
+            "result": "6.4404554e-07",
+            "label": "centipede"
+        },
+        {
+            "status": "ok",
+            "result": "2.5070323e-05",
+            "label": "black_grouse"
+        },
+        {
+            "status": "ok",
+            "result": "1.07169735e-05",
+            "label": "ptarmigan"
+        },
+        {
+            "status": "ok",
+            "result": "0.00020296847",
+            "label": "ruffed_grouse"
+        },
+        {
+            "status": "ok",
+            "result": "3.182252e-05",
+            "label": "prairie_chicken"
+        },
+        {
+            "status": "ok",
+            "result": "9.2364223e-07",
+            "label": "peacock"
+        },
+        {
+            "status": "ok",
+            "result": "7.574178e-05",
+            "label": "quail"
+        },
+        {
+            "status": "ok",
+            "result": "1.1428343e-05",
+            "label": "partridge"
+        },
+        {
+            "status": "ok",
+            "result": "5.838296e-05",
+            "label": "African_grey"
+        },
+        {
+            "status": "ok",
+            "result": "9.113478e-05",
+            "label": "macaw"
+        },
+        {
+            "status": "ok",
+            "result": "2.751926e-05",
+            "label": "sulphur-crested_cockatoo"
+        },
+        {
+            "status": "ok",
+            "result": "0.00010414651",
+            "label": "lorikeet"
+        },
+        {
+            "status": "ok",
+            "result": "3.274944e-05",
+            "label": "coucal"
+        },
+        {
+            "status": "ok",
+            "result": "3.7481518e-06",
+            "label": "bee_eater"
+        },
+        {
+            "status": "ok",
+            "result": "3.9648887e-05",
+            "label": "hornbill"
+        },
+        {
+            "status": "ok",
+            "result": "6.2739123e-06",
+            "label": "hummingbird"
+        },
+        {
+            "status": "ok",
+            "result": "4.616965e-05",
+            "label": "jacamar"
+        },
+        {
+            "status": "ok",
+            "result": "0.00026231344",
+            "label": "toucan"
+        },
+        {
+            "status": "ok",
+            "result": "5.213582e-05",
+            "label": "drake"
+        },
+        {
+            "status": "ok",
+            "result": "7.372268e-05",
+            "label": "red-breasted_merganser"
+        },
+        {
+            "status": "ok",
+            "result": "0.00010160731",
+            "label": "goose"
+        },
+        {
+            "status": "ok",
+            "result": "0.00012641004",
+            "label": "black_swan"
+        },
+        {
+            "status": "ok",
+            "result": "2.8212731e-05",
+            "label": "tusker"
+        },
+        {
+            "status": "ok",
+            "result": "2.7550488e-05",
+            "label": "echidna"
+        },
+        {
+            "status": "ok",
+            "result": "5.189578e-06",
+            "label": "platypus"
+        },
+        {
+            "status": "ok",
+            "result": "3.115677e-06",
+            "label": "wallaby"
+        },
+        {
+            "status": "ok",
+            "result": "0.00015225852",
+            "label": "koala"
+        },
+        {
+            "status": "ok",
+            "result": "0.00016488125",
+            "label": "wombat"
+        },
+        {
+            "status": "ok",
+            "result": "2.1437549e-05",
+            "label": "jellyfish"
+        },
+        {
+            "status": "ok",
+            "result": "6.1029397e-05",
+            "label": "sea_anemone"
+        },
+        {
+            "status": "ok",
+            "result": "6.279048e-05",
+            "label": "brain_coral"
+        },
+        {
+            "status": "ok",
+            "result": "0.00025577052",
+            "label": "flatworm"
+        },
+        {
+            "status": "ok",
+            "result": "2.8027693e-05",
+            "label": "nematode"
+        },
+        {
+            "status": "ok",
+            "result": "4.6424033e-05",
+            "label": "conch"
+        },
+        {
+            "status": "ok",
+            "result": "2.8095967e-05",
+            "label": "snail"
+        },
+        {
+            "status": "ok",
+            "result": "5.9309146e-05",
+            "label": "slug"
+        },
+        {
+            "status": "ok",
+            "result": "0.0001685326",
+            "label": "sea_slug"
+        },
+        {
+            "status": "ok",
+            "result": "2.083302e-05",
+            "label": "chiton"
+        },
+        {
+            "status": "ok",
+            "result": "1.2502567e-06",
+            "label": "chambered_nautilus"
+        },
+        {
+            "status": "ok",
+            "result": "0.0005671818",
+            "label": "Dungeness_crab"
+        },
+        {
+            "status": "ok",
+            "result": "1.9351251e-05",
+            "label": "rock_crab"
+        },
+        {
+            "status": "ok",
+            "result": "2.8132345e-05",
+            "label": "fiddler_crab"
+        },
+        {
+            "status": "ok",
+            "result": "3.3011205e-05",
+            "label": "king_crab"
+        },
+        {
+            "status": "ok",
+            "result": "0.00014167336",
+            "label": "American_lobster"
+        },
+        {
+            "status": "ok",
+            "result": "3.0154772e-05",
+            "label": "spiny_lobster"
+        },
+        {
+            "status": "ok",
+            "result": "6.504259e-05",
+            "label": "crayfish"
+        },
+        {
+            "status": "ok",
+            "result": "4.733233e-05",
+            "label": "hermit_crab"
+        },
+        {
+            "status": "ok",
+            "result": "2.5073334e-05",
+            "label": "isopod"
+        },
+        {
+            "status": "ok",
+            "result": "0.00021699764",
+            "label": "white_stork"
+        },
+        {
+            "status": "ok",
+            "result": "3.3704466e-06",
+            "label": "black_stork"
+        },
+        {
+            "status": "ok",
+            "result": "2.2091643e-05",
+            "label": "spoonbill"
+        },
+        {
+            "status": "ok",
+            "result": "9.467797e-05",
+            "label": "flamingo"
+        },
+        {
+            "status": "ok",
+            "result": "3.378877e-05",
+            "label": "little_blue_heron"
+        },
+        {
+            "status": "ok",
+            "result": "3.376296e-05",
+            "label": "American_egret"
+        },
+        {
+            "status": "ok",
+            "result": "0.00010073197",
+            "label": "bittern"
+        },
+        {
+            "status": "ok",
+            "result": "2.6833888e-05",
+            "label": "crane"
+        },
+        {
+            "status": "ok",
+            "result": "5.0848073e-05",
+            "label": "limpkin"
+        },
+        {
+            "status": "ok",
+            "result": "0.00036949632",
+            "label": "European_gallinule"
+        },
+        {
+            "status": "ok",
+            "result": "0.0002591034",
+            "label": "American_coot"
+        },
+        {
+            "status": "ok",
+            "result": "1.0722972e-05",
+            "label": "bustard"
+        },
+        {
+            "status": "ok",
+            "result": "0.00013021819",
+            "label": "ruddy_turnstone"
+        },
+        {
+            "status": "ok",
+            "result": "0.00060423923",
+            "label": "red-backed_sandpiper"
+        },
+        {
+            "status": "ok",
+            "result": "3.590058e-05",
+            "label": "redshank"
+        },
+        {
+            "status": "ok",
+            "result": "5.5647706e-05",
+            "label": "dowitcher"
+        },
+        {
+            "status": "ok",
+            "result": "4.1226336e-05",
+            "label": "oystercatcher"
+        },
+        {
+            "status": "ok",
+            "result": "1.9842264e-05",
+            "label": "pelican"
+        },
+        {
+            "status": "ok",
+            "result": "5.0062456e-05",
+            "label": "king_penguin"
+        },
+        {
+            "status": "ok",
+            "result": "2.5944728e-05",
+            "label": "albatross"
+        },
+        {
+            "status": "ok",
+            "result": "8.6571774e-05",
+            "label": "grey_whale"
+        },
+        {
+            "status": "ok",
+            "result": "0.00014448258",
+            "label": "killer_whale"
+        },
+        {
+            "status": "ok",
+            "result": "0.0005881642",
+            "label": "dugong"
+        },
+        {
+            "status": "ok",
+            "result": "1.892472e-05",
+            "label": "sea_lion"
+        },
+        {
+            "status": "ok",
+            "result": "2.8197255e-05",
+            "label": "Chihuahua"
+        },
+        {
+            "status": "ok",
+            "result": "3.0636853e-05",
+            "label": "Japanese_spaniel"
+        },
+        {
+            "status": "ok",
+            "result": "0.0001275832",
+            "label": "Maltese_dog"
+        },
+        {
+            "status": "ok",
+            "result": "0.0006527951",
+            "label": "Pekinese"
+        },
+        {
+            "status": "ok",
+            "result": "8.903555e-05",
+            "label": "Shih-Tzu"
+        },
+        {
+            "status": "ok",
+            "result": "0.00020739621",
+            "label": "Blenheim_spaniel"
+        },
+        {
+            "status": "ok",
+            "result": "7.368409e-05",
+            "label": "papillon"
+        },
+        {
+            "status": "ok",
+            "result": "0.00010281643",
+            "label": "toy_terrier"
+        },
+        {
+            "status": "ok",
+            "result": "9.865055e-05",
+            "label": "Rhodesian_ridgeback"
+        },
+        {
+            "status": "ok",
+            "result": "5.577656e-06",
+            "label": "Afghan_hound"
+        },
+        {
+            "status": "ok",
+            "result": "0.000249042",
+            "label": "basset"
+        },
+        {
+            "status": "ok",
+            "result": "0.00010343769",
+            "label": "beagle"
+        },
+        {
+            "status": "ok",
+            "result": "8.442862e-05",
+            "label": "bloodhound"
+        },
+        {
+            "status": "ok",
+            "result": "4.9264017e-06",
+            "label": "bluetick"
+        },
+        {
+            "status": "ok",
+            "result": "2.6165173e-05",
+            "label": "black-and-tan_coonhound"
+        },
+        {
+            "status": "ok",
+            "result": "7.338602e-05",
+            "label": "Walker_hound"
+        },
+        {
+            "status": "ok",
+            "result": "0.000101219695",
+            "label": "English_foxhound"
+        },
+        {
+            "status": "ok",
+            "result": "4.9060134e-05",
+            "label": "redbone"
+        },
+        {
+            "status": "ok",
+            "result": "4.361549e-05",
+            "label": "borzoi"
+        },
+        {
+            "status": "ok",
+            "result": "6.1390085e-05",
+            "label": "Irish_wolfhound"
+        },
+        {
+            "status": "ok",
+            "result": "8.6302985e-05",
+            "label": "Italian_greyhound"
+        },
+        {
+            "status": "ok",
+            "result": "9.61326e-05",
+            "label": "whippet"
+        },
+        {
+            "status": "ok",
+            "result": "2.3207838e-05",
+            "label": "Ibizan_hound"
+        },
+        {
+            "status": "ok",
+            "result": "1.0725541e-05",
+            "label": "Norwegian_elkhound"
+        },
+        {
+            "status": "ok",
+            "result": "5.440447e-06",
+            "label": "otterhound"
+        },
+        {
+            "status": "ok",
+            "result": "2.6025282e-05",
+            "label": "Saluki"
+        },
+        {
+            "status": "ok",
+            "result": "1.746889e-05",
+            "label": "Scottish_deerhound"
+        },
+        {
+            "status": "ok",
+            "result": "8.5995904e-05",
+            "label": "Weimaraner"
+        },
+        {
+            "status": "ok",
+            "result": "1.1424512e-05",
+            "label": "Staffordshire_bullterrier"
+        },
+        {
+            "status": "ok",
+            "result": "6.9598434e-05",
+            "label": "American_Staffordshire_terrier"
+        },
+        {
+            "status": "ok",
+            "result": "1.1439719e-05",
+            "label": "Bedlington_terrier"
+        },
+        {
+            "status": "ok",
+            "result": "7.1280614e-05",
+            "label": "Border_terrier"
+        },
+        {
+            "status": "ok",
+            "result": "1.8751763e-05",
+            "label": "Kerry_blue_terrier"
+        },
+        {
+            "status": "ok",
+            "result": "7.044932e-05",
+            "label": "Irish_terrier"
+        },
+        {
+            "status": "ok",
+            "result": "2.9049503e-05",
+            "label": "Norfolk_terrier"
+        },
+        {
+            "status": "ok",
+            "result": "7.498782e-05",
+            "label": "Norwich_terrier"
+        },
+        {
+            "status": "ok",
+            "result": "1.9619363e-05",
+            "label": "Yorkshire_terrier"
+        },
+        {
+            "status": "ok",
+            "result": "2.65546e-05",
+            "label": "wire-haired_fox_terrier"
+        },
+        {
+            "status": "ok",
+            "result": "0.00017671727",
+            "label": "Lakeland_terrier"
+        },
+        {
+            "status": "ok",
+            "result": "2.9036899e-05",
+            "label": "Sealyham_terrier"
+        },
+        {
+            "status": "ok",
+            "result": "6.4270876e-06",
+            "label": "Airedale"
+        },
+        {
+            "status": "ok",
+            "result": "7.867841e-05",
+            "label": "cairn"
+        },
+        {
+            "status": "ok",
+            "result": "0.00040533007",
+            "label": "Australian_terrier"
+        },
+        {
+            "status": "ok",
+            "result": "6.4746536e-07",
+            "label": "Dandie_Dinmont"
+        },
+        {
+            "status": "ok",
+            "result": "4.078957e-06",
+            "label": "Boston_bull"
+        },
+        {
+            "status": "ok",
+            "result": "7.727876e-05",
+            "label": "miniature_schnauzer"
+        },
+        {
+            "status": "ok",
+            "result": "3.1927488e-05",
+            "label": "giant_schnauzer"
+        },
+        {
+            "status": "ok",
+            "result": "4.706914e-07",
+            "label": "standard_schnauzer"
+        },
+        {
+            "status": "ok",
+            "result": "9.668794e-05",
+            "label": "Scotch_terrier"
+        },
+        {
+            "status": "ok",
+            "result": "1.9735553e-06",
+            "label": "Tibetan_terrier"
+        },
+        {
+            "status": "ok",
+            "result": "0.0001126476",
+            "label": "silky_terrier"
+        },
+        {
+            "status": "ok",
+            "result": "0.00013773727",
+            "label": "soft-coated_wheaten_terrier"
+        },
+        {
+            "status": "ok",
+            "result": "0.0001229437",
+            "label": "West_Highland_white_terrier"
+        },
+        {
+            "status": "ok",
+            "result": "6.459905e-05",
+            "label": "Lhasa"
+        },
+        {
+            "status": "ok",
+            "result": "3.1703814e-05",
+            "label": "flat-coated_retriever"
+        },
+        {
+            "status": "ok",
+            "result": "8.786274e-05",
+            "label": "curly-coated_retriever"
+        },
+        {
+            "status": "ok",
+            "result": "6.2624305e-05",
+            "label": "golden_retriever"
+        },
+        {
+            "status": "ok",
+            "result": "2.0271748e-06",
+            "label": "Labrador_retriever"
+        },
+        {
+            "status": "ok",
+            "result": "8.5892134e-05",
+            "label": "Chesapeake_Bay_retriever"
+        },
+        {
+            "status": "ok",
+            "result": "0.00016436535",
+            "label": "German_short-haired_pointer"
+        },
+        {
+            "status": "ok",
+            "result": "7.087015e-05",
+            "label": "vizsla"
+        },
+        {
+            "status": "ok",
+            "result": "4.477712e-06",
+            "label": "English_setter"
+        },
+        {
+            "status": "ok",
+            "result": "2.5200574e-05",
+            "label": "Irish_setter"
+        },
+        {
+            "status": "ok",
+            "result": "1.5006795e-05",
+            "label": "Gordon_setter"
+        },
+        {
+            "status": "ok",
+            "result": "3.285463e-05",
+            "label": "Brittany_spaniel"
+        },
+        {
+            "status": "ok",
+            "result": "1.2258403e-05",
+            "label": "clumber"
+        },
+        {
+            "status": "ok",
+            "result": "8.6087166e-05",
+            "label": "English_springer"
+        },
+        {
+            "status": "ok",
+            "result": "1.2932306e-05",
+            "label": "Welsh_springer_spaniel"
+        },
+        {
+            "status": "ok",
+            "result": "0.00014984948",
+            "label": "cocker_spaniel"
+        },
+        {
+            "status": "ok",
+            "result": "2.5759808e-05",
+            "label": "Sussex_spaniel"
+        },
+        {
+            "status": "ok",
+            "result": "2.7537724e-05",
+            "label": "Irish_water_spaniel"
+        },
+        {
+            "status": "ok",
+            "result": "4.1024316e-05",
+            "label": "kuvasz"
+        },
+        {
+            "status": "ok",
+            "result": "0.00042479692",
+            "label": "schipperke"
+        },
+        {
+            "status": "ok",
+            "result": "0.000107705695",
+            "label": "groenendael"
+        },
+        {
+            "status": "ok",
+            "result": "1.0277157e-05",
+            "label": "malinois"
+        },
+        {
+            "status": "ok",
+            "result": "5.8249345e-05",
+            "label": "briard"
+        },
+        {
+            "status": "ok",
+            "result": "2.8520795e-05",
+            "label": "kelpie"
+        },
+        {
+            "status": "ok",
+            "result": "1.2751211e-05",
+            "label": "komondor"
+        },
+        {
+            "status": "ok",
+            "result": "7.344078e-06",
+            "label": "Old_English_sheepdog"
+        },
+        {
+            "status": "ok",
+            "result": "0.0015595368",
+            "label": "Shetland_sheepdog"
+        },
+        {
+            "status": "ok",
+            "result": "0.0001272515",
+            "label": "collie"
+        },
+        {
+            "status": "ok",
+            "result": "6.846392e-06",
+            "label": "Border_collie"
+        },
+        {
+            "status": "ok",
+            "result": "0.00014042057",
+            "label": "Bouvier_des_Flandres"
+        },
+        {
+            "status": "ok",
+            "result": "5.070323e-05",
+            "label": "Rottweiler"
+        },
+        {
+            "status": "ok",
+            "result": "0.00012919313",
+            "label": "German_shepherd"
+        },
+        {
+            "status": "ok",
+            "result": "0.00011139662",
+            "label": "Doberman"
+        },
+        {
+            "status": "ok",
+            "result": "5.9872444e-05",
+            "label": "miniature_pinscher"
+        },
+        {
+            "status": "ok",
+            "result": "0.00032367685",
+            "label": "Greater_Swiss_Mountain_dog"
+        },
+        {
+            "status": "ok",
+            "result": "0.00011998414",
+            "label": "Bernese_mountain_dog"
+        },
+        {
+            "status": "ok",
+            "result": "7.962487e-05",
+            "label": "Appenzeller"
+        },
+        {
+            "status": "ok",
+            "result": "1.7712347e-05",
+            "label": "EntleBucher"
+        },
+        {
+            "status": "ok",
+            "result": "1.8662899e-05",
+            "label": "boxer"
+        },
+        {
+            "status": "ok",
+            "result": "5.518446e-05",
+            "label": "bull_mastiff"
+        },
+        {
+            "status": "ok",
+            "result": "4.7037807e-05",
+            "label": "Tibetan_mastiff"
+        },
+        {
+            "status": "ok",
+            "result": "9.108973e-05",
+            "label": "French_bulldog"
+        },
+        {
+            "status": "ok",
+            "result": "0.00017407662",
+            "label": "Great_Dane"
+        },
+        {
+            "status": "ok",
+            "result": "3.2875047e-05",
+            "label": "Saint_Bernard"
+        },
+        {
+            "status": "ok",
+            "result": "9.081335e-05",
+            "label": "Eskimo_dog"
+        },
+        {
+            "status": "ok",
+            "result": "6.1145045e-05",
+            "label": "malamute"
+        },
+        {
+            "status": "ok",
+            "result": "4.8942e-05",
+            "label": "Siberian_husky"
+        },
+        {
+            "status": "ok",
+            "result": "0.000105026535",
+            "label": "dalmatian"
+        },
+        {
+            "status": "ok",
+            "result": "4.0023388e-06",
+            "label": "affenpinscher"
+        },
+        {
+            "status": "ok",
+            "result": "7.708625e-06",
+            "label": "basenji"
+        },
+        {
+            "status": "ok",
+            "result": "0.00038704314",
+            "label": "pug"
+        },
+        {
+            "status": "ok",
+            "result": "9.477721e-06",
+            "label": "Leonberg"
+        },
+        {
+            "status": "ok",
+            "result": "2.96126e-05",
+            "label": "Newfoundland"
+        },
+        {
+            "status": "ok",
+            "result": "1.998631e-05",
+            "label": "Great_Pyrenees"
+        },
+        {
+            "status": "ok",
+            "result": "3.3040316e-05",
+            "label": "Samoyed"
+        },
+        {
+            "status": "ok",
+            "result": "0.0011624435",
+            "label": "Pomeranian"
+        },
+        {
+            "status": "ok",
+            "result": "1.7039996e-05",
+            "label": "chow"
+        },
+        {
+            "status": "ok",
+            "result": "0.00023562604",
+            "label": "keeshond"
+        },
+        {
+            "status": "ok",
+            "result": "2.9612362e-05",
+            "label": "Brabancon_griffon"
+        },
+        {
+            "status": "ok",
+            "result": "8.201546e-05",
+            "label": "Pembroke"
+        },
+        {
+            "status": "ok",
+            "result": "1.2599353e-05",
+            "label": "Cardigan"
+        },
+        {
+            "status": "ok",
+            "result": "8.32541e-05",
+            "label": "toy_poodle"
+        },
+        {
+            "status": "ok",
+            "result": "1.3948306e-05",
+            "label": "miniature_poodle"
+        },
+        {
+            "status": "ok",
+            "result": "5.091626e-05",
+            "label": "standard_poodle"
+        },
+        {
+            "status": "ok",
+            "result": "4.483938e-05",
+            "label": "Mexican_hairless"
+        },
+        {
+            "status": "ok",
+            "result": "8.196679e-05",
+            "label": "timber_wolf"
+        },
+        {
+            "status": "ok",
+            "result": "1.29966575e-05",
+            "label": "white_wolf"
+        },
+        {
+            "status": "ok",
+            "result": "5.1698382e-05",
+            "label": "red_wolf"
+        },
+        {
+            "status": "ok",
+            "result": "0.00011262911",
+            "label": "coyote"
+        },
+        {
+            "status": "ok",
+            "result": "1.0535145e-05",
+            "label": "dingo"
+        },
+        {
+            "status": "ok",
+            "result": "1.563664e-05",
+            "label": "dhole"
+        },
+        {
+            "status": "ok",
+            "result": "0.00012415674",
+            "label": "African_hunting_dog"
+        },
+        {
+            "status": "ok",
+            "result": "1.6971071e-05",
+            "label": "hyena"
+        },
+        {
+            "status": "ok",
+            "result": "0.00013175378",
+            "label": "red_fox"
+        },
+        {
+            "status": "ok",
+            "result": "4.2677926e-05",
+            "label": "kit_fox"
+        },
+        {
+            "status": "ok",
+            "result": "2.106009e-05",
+            "label": "Arctic_fox"
+        },
+        {
+            "status": "ok",
+            "result": "2.7738653e-05",
+            "label": "grey_fox"
+        },
+        {
+            "status": "ok",
+            "result": "3.924577e-05",
+            "label": "tabby"
+        },
+        {
+            "status": "ok",
+            "result": "1.0181167e-05",
+            "label": "tiger_cat"
+        },
+        {
+            "status": "ok",
+            "result": "1.1698404e-05",
+            "label": "Persian_cat"
+        },
+        {
+            "status": "ok",
+            "result": "1.39368785e-05",
+            "label": "Siamese_cat"
+        },
+        {
+            "status": "ok",
+            "result": "1.89876e-05",
+            "label": "Egyptian_cat"
+        },
+        {
+            "status": "ok",
+            "result": "8.769988e-06",
+            "label": "cougar"
+        },
+        {
+            "status": "ok",
+            "result": "8.146502e-07",
+            "label": "lynx"
+        },
+        {
+            "status": "ok",
+            "result": "4.1338204e-05",
+            "label": "leopard"
+        },
+        {
+            "status": "ok",
+            "result": "0.0003797229",
+            "label": "snow_leopard"
+        },
+        {
+            "status": "ok",
+            "result": "2.8085497e-05",
+            "label": "jaguar"
+        },
+        {
+            "status": "ok",
+            "result": "6.5895874e-06",
+            "label": "lion"
+        },
+        {
+            "status": "ok",
+            "result": "0.00014808605",
+            "label": "tiger"
+        },
+        {
+            "status": "ok",
+            "result": "0.000114570175",
+            "label": "cheetah"
+        },
+        {
+            "status": "ok",
+            "result": "2.8558194e-05",
+            "label": "brown_bear"
+        },
+        {
+            "status": "ok",
+            "result": "5.268921e-05",
+            "label": "American_black_bear"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "ice_bear"
+        },
+        {
+            "status": "ok",
+            "result": "0.00040116985",
+            "label": "sloth_bear"
+        },
+        {
+            "status": "ok",
+            "result": "1.49118405e-05",
+            "label": "mongoose"
+        },
+        {
+            "status": "ok",
+            "result": "0.0001476432",
+            "label": "meerkat"
+        },
+        {
+            "status": "ok",
+            "result": "8.4548854e-05",
+            "label": "tiger_beetle"
+        },
+        {
+            "status": "ok",
+            "result": "0.0005832084",
+            "label": "ladybug"
+        },
+        {
+            "status": "ok",
+            "result": "8.42937e-05",
+            "label": "ground_beetle"
+        },
+        {
+            "status": "ok",
+            "result": "2.8548007e-07",
+            "label": "long-horned_beetle"
+        },
+        {
+            "status": "ok",
+            "result": "1.3824088e-05",
+            "label": "leaf_beetle"
+        },
+        {
+            "status": "ok",
+            "result": "5.3284857e-06",
+            "label": "dung_beetle"
+        },
+        {
+            "status": "ok",
+            "result": "8.167869e-08",
+            "label": "rhinoceros_beetle"
+        },
+        {
+            "status": "ok",
+            "result": "8.126932e-06",
+            "label": "weevil"
+        },
+        {
+            "status": "ok",
+            "result": "7.3028816e-05",
+            "label": "fly"
+        },
+        {
+            "status": "ok",
+            "result": "0.00052095647",
+            "label": "bee"
+        },
+        {
+            "status": "ok",
+            "result": "8.765565e-05",
+            "label": "ant"
+        },
+        {
+            "status": "ok",
+            "result": "2.7266537e-05",
+            "label": "grasshopper"
+        },
+        {
+            "status": "ok",
+            "result": "9.1683796e-05",
+            "label": "cricket"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "walking_stick"
+        },
+        {
+            "status": "ok",
+            "result": "6.917221e-05",
+            "label": "cockroach"
+        },
+        {
+            "status": "ok",
+            "result": "2.4639228e-05",
+            "label": "mantis"
+        },
+        {
+            "status": "ok",
+            "result": "9.181246e-05",
+            "label": "cicada"
+        },
+        {
+            "status": "ok",
+            "result": "0.00031298",
+            "label": "leafhopper"
+        },
+        {
+            "status": "ok",
+            "result": "2.3960072e-06",
+            "label": "lacewing"
+        },
+        {
+            "status": "ok",
+            "result": "0.00026555694",
+            "label": "dragonfly"
+        },
+        {
+            "status": "ok",
+            "result": "0.00017145163",
+            "label": "damselfly"
+        },
+        {
+            "status": "ok",
+            "result": "6.222776e-05",
+            "label": "admiral"
+        },
+        {
+            "status": "ok",
+            "result": "2.4177858e-05",
+            "label": "ringlet"
+        },
+        {
+            "status": "ok",
+            "result": "0.00010533289",
+            "label": "monarch"
+        },
+        {
+            "status": "ok",
+            "result": "0.00014262219",
+            "label": "cabbage_butterfly"
+        },
+        {
+            "status": "ok",
+            "result": "6.901844e-05",
+            "label": "sulphur_butterfly"
+        },
+        {
+            "status": "ok",
+            "result": "1.1040134e-05",
+            "label": "lycaenid"
+        },
+        {
+            "status": "ok",
+            "result": "7.721076e-05",
+            "label": "starfish"
+        },
+        {
+            "status": "ok",
+            "result": "9.586748e-06",
+            "label": "sea_urchin"
+        },
+        {
+            "status": "ok",
+            "result": "3.108677e-05",
+            "label": "sea_cucumber"
+        },
+        {
+            "status": "ok",
+            "result": "0.00020828973",
+            "label": "wood_rabbit"
+        },
+        {
+            "status": "ok",
+            "result": "5.3882843e-05",
+            "label": "hare"
+        },
+        {
+            "status": "ok",
+            "result": "0.00012464731",
+            "label": "Angora"
+        },
+        {
+            "status": "ok",
+            "result": "0.00014904706",
+            "label": "hamster"
+        },
+        {
+            "status": "ok",
+            "result": "5.9725822e-05",
+            "label": "porcupine"
+        },
+        {
+            "status": "ok",
+            "result": "1.1261717e-05",
+            "label": "fox_squirrel"
+        },
+        {
+            "status": "ok",
+            "result": "0.0002711561",
+            "label": "marmot"
+        },
+        {
+            "status": "ok",
+            "result": "3.167369e-05",
+            "label": "beaver"
+        },
+        {
+            "status": "ok",
+            "result": "0.00032167818",
+            "label": "guinea_pig"
+        },
+        {
+            "status": "ok",
+            "result": "4.197212e-05",
+            "label": "sorrel"
+        },
+        {
+            "status": "ok",
+            "result": "3.92811e-05",
+            "label": "zebra"
+        },
+        {
+            "status": "ok",
+            "result": "2.8269345e-05",
+            "label": "hog"
+        },
+        {
+            "status": "ok",
+            "result": "0.00010145044",
+            "label": "wild_boar"
+        },
+        {
+            "status": "ok",
+            "result": "0.00024490722",
+            "label": "warthog"
+        },
+        {
+            "status": "ok",
+            "result": "1.3080284e-05",
+            "label": "hippopotamus"
+        },
+        {
+            "status": "ok",
+            "result": "2.3504039e-05",
+            "label": "ox"
+        },
+        {
+            "status": "ok",
+            "result": "0.00012208759",
+            "label": "water_buffalo"
+        },
+        {
+            "status": "ok",
+            "result": "3.1677322e-05",
+            "label": "bison"
+        },
+        {
+            "status": "ok",
+            "result": "0.00040005427",
+            "label": "ram"
+        },
+        {
+            "status": "ok",
+            "result": "8.671836e-05",
+            "label": "bighorn"
+        },
+        {
+            "status": "ok",
+            "result": "6.181784e-05",
+            "label": "ibex"
+        },
+        {
+            "status": "ok",
+            "result": "1.7705517e-05",
+            "label": "hartebeest"
+        },
+        {
+            "status": "ok",
+            "result": "1.260613e-05",
+            "label": "impala"
+        },
+        {
+            "status": "ok",
+            "result": "0.00014243889",
+            "label": "gazelle"
+        },
+        {
+            "status": "ok",
+            "result": "4.0276467e-05",
+            "label": "Arabian_camel"
+        },
+        {
+            "status": "ok",
+            "result": "7.335146e-06",
+            "label": "llama"
+        },
+        {
+            "status": "ok",
+            "result": "0.00039747273",
+            "label": "weasel"
+        },
+        {
+            "status": "ok",
+            "result": "2.0884117e-05",
+            "label": "mink"
+        },
+        {
+            "status": "ok",
+            "result": "0.00011971697",
+            "label": "polecat"
+        },
+        {
+            "status": "ok",
+            "result": "5.2059197e-05",
+            "label": "black-footed_ferret"
+        },
+        {
+            "status": "ok",
+            "result": "1.9237872e-05",
+            "label": "otter"
+        },
+        {
+            "status": "ok",
+            "result": "2.185063e-05",
+            "label": "skunk"
+        },
+        {
+            "status": "ok",
+            "result": "1.8492276e-05",
+            "label": "badger"
+        },
+        {
+            "status": "ok",
+            "result": "4.8955022e-05",
+            "label": "armadillo"
+        },
+        {
+            "status": "ok",
+            "result": "6.0720096e-05",
+            "label": "three-toed_sloth"
+        },
+        {
+            "status": "ok",
+            "result": "6.6756285e-05",
+            "label": "orangutan"
+        },
+        {
+            "status": "ok",
+            "result": "0.00013087173",
+            "label": "gorilla"
+        },
+        {
+            "status": "ok",
+            "result": "1.2158243e-05",
+            "label": "chimpanzee"
+        },
+        {
+            "status": "ok",
+            "result": "4.246208e-05",
+            "label": "gibbon"
+        },
+        {
+            "status": "ok",
+            "result": "1.1604972e-05",
+            "label": "siamang"
+        },
+        {
+            "status": "ok",
+            "result": "6.441294e-05",
+            "label": "guenon"
+        },
+        {
+            "status": "ok",
+            "result": "4.2800675e-05",
+            "label": "patas"
+        },
+        {
+            "status": "ok",
+            "result": "6.329705e-05",
+            "label": "baboon"
+        },
+        {
+            "status": "ok",
+            "result": "0.00057292555",
+            "label": "macaque"
+        },
+        {
+            "status": "ok",
+            "result": "0.00022406918",
+            "label": "langur"
+        },
+        {
+            "status": "ok",
+            "result": "0.00013788248",
+            "label": "colobus"
+        },
+        {
+            "status": "ok",
+            "result": "0.00021330915",
+            "label": "proboscis_monkey"
+        },
+        {
+            "status": "ok",
+            "result": "1.0391656e-05",
+            "label": "marmoset"
+        },
+        {
+            "status": "ok",
+            "result": "0.000199133",
+            "label": "capuchin"
+        },
+        {
+            "status": "ok",
+            "result": "0.00025635835",
+            "label": "howler_monkey"
+        },
+        {
+            "status": "ok",
+            "result": "8.178198e-06",
+            "label": "titi"
+        },
+        {
+            "status": "ok",
+            "result": "0.0003774307",
+            "label": "spider_monkey"
+        },
+        {
+            "status": "ok",
+            "result": "4.5810997e-05",
+            "label": "squirrel_monkey"
+        },
+        {
+            "status": "ok",
+            "result": "2.7294816e-05",
+            "label": "Madagascar_cat"
+        },
+        {
+            "status": "ok",
+            "result": "2.2952654e-05",
+            "label": "indri"
+        },
+        {
+            "status": "ok",
+            "result": "6.87605e-05",
+            "label": "Indian_elephant"
+        },
+        {
+            "status": "ok",
+            "result": "3.7172e-05",
+            "label": "African_elephant"
+        },
+        {
+            "status": "ok",
+            "result": "5.8102647e-05",
+            "label": "lesser_panda"
+        },
+        {
+            "status": "ok",
+            "result": "2.417374e-05",
+            "label": "giant_panda"
+        },
+        {
+            "status": "ok",
+            "result": "6.420923e-05",
+            "label": "barracouta"
+        },
+        {
+            "status": "ok",
+            "result": "2.3028166e-05",
+            "label": "eel"
+        },
+        {
+            "status": "ok",
+            "result": "3.563712e-05",
+            "label": "coho"
+        },
+        {
+            "status": "ok",
+            "result": "2.442482e-05",
+            "label": "rock_beauty"
+        },
+        {
+            "status": "ok",
+            "result": "0.0001323005",
+            "label": "anemone_fish"
+        },
+        {
+            "status": "ok",
+            "result": "0.00012210668",
+            "label": "sturgeon"
+        },
+        {
+            "status": "ok",
+            "result": "8.837363e-06",
+            "label": "gar"
+        },
+        {
+            "status": "ok",
+            "result": "4.5908196e-06",
+            "label": "lionfish"
+        },
+        {
+            "status": "ok",
+            "result": "4.518466e-06",
+            "label": "puffer"
+        },
+        {
+            "status": "ok",
+            "result": "0.9210581",
+            "label": "abacus"
+        },
+        {
+            "status": "ok",
+            "result": "1.3839607e-05",
+            "label": "abaya"
+        },
+        {
+            "status": "ok",
+            "result": "1.8827739e-06",
+            "label": "academic_gown"
+        },
+        {
+            "status": "ok",
+            "result": "0.00020592137",
+            "label": "accordion"
+        },
+        {
+            "status": "ok",
+            "result": "4.6812595e-05",
+            "label": "acoustic_guitar"
+        },
+        {
+            "status": "ok",
+            "result": "3.3161905e-05",
+            "label": "aircraft_carrier"
+        },
+        {
+            "status": "ok",
+            "result": "3.084551e-05",
+            "label": "airliner"
+        },
+        {
+            "status": "ok",
+            "result": "4.8655193e-06",
+            "label": "airship"
+        },
+        {
+            "status": "ok",
+            "result": "1.6483235e-05",
+            "label": "altar"
+        },
+        {
+            "status": "ok",
+            "result": "0.00017950326",
+            "label": "ambulance"
+        },
+        {
+            "status": "ok",
+            "result": "8.342877e-05",
+            "label": "amphibian"
+        },
+        {
+            "status": "ok",
+            "result": "6.5063577e-06",
+            "label": "analog_clock"
+        },
+        {
+            "status": "ok",
+            "result": "0.00019360376",
+            "label": "apiary"
+        },
+        {
+            "status": "ok",
+            "result": "7.0972914e-05",
+            "label": "apron"
+        },
+        {
+            "status": "ok",
+            "result": "9.845391e-06",
+            "label": "ashcan"
+        },
+        {
+            "status": "ok",
+            "result": "0.00012755972",
+            "label": "assault_rifle"
+        },
+        {
+            "status": "ok",
+            "result": "5.658474e-05",
+            "label": "backpack"
+        },
+        {
+            "status": "ok",
+            "result": "0.00017185343",
+            "label": "bakery"
+        },
+        {
+            "status": "ok",
+            "result": "1.6814047e-05",
+            "label": "balance_beam"
+        },
+        {
+            "status": "ok",
+            "result": "0.0003989245",
+            "label": "balloon"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "ballpoint"
+        },
+        {
+            "status": "ok",
+            "result": "4.9665e-06",
+            "label": "Band_Aid"
+        },
+        {
+            "status": "ok",
+            "result": "2.2216014e-05",
+            "label": "banjo"
+        },
+        {
+            "status": "ok",
+            "result": "2.3758033e-05",
+            "label": "bannister"
+        },
+        {
+            "status": "ok",
+            "result": "2.1318963e-05",
+            "label": "barbell"
+        },
+        {
+            "status": "ok",
+            "result": "3.7630268e-06",
+            "label": "barber_chair"
+        },
+        {
+            "status": "ok",
+            "result": "7.86679e-05",
+            "label": "barbershop"
+        },
+        {
+            "status": "ok",
+            "result": "5.5162818e-05",
+            "label": "barn"
+        },
+        {
+            "status": "ok",
+            "result": "2.0310727e-05",
+            "label": "barometer"
+        },
+        {
+            "status": "ok",
+            "result": "0.00018013458",
+            "label": "barrel"
+        },
+        {
+            "status": "ok",
+            "result": "5.505354e-06",
+            "label": "barrow"
+        },
+        {
+            "status": "ok",
+            "result": "0.00014677408",
+            "label": "baseball"
+        },
+        {
+            "status": "ok",
+            "result": "0.00020426663",
+            "label": "basketball"
+        },
+        {
+            "status": "ok",
+            "result": "4.74677e-05",
+            "label": "bassinet"
+        },
+        {
+            "status": "ok",
+            "result": "1.37910565e-05",
+            "label": "bassoon"
+        },
+        {
+            "status": "ok",
+            "result": "0.00022203552",
+            "label": "bathing_cap"
+        },
+        {
+            "status": "ok",
+            "result": "4.266587e-05",
+            "label": "bath_towel"
+        },
+        {
+            "status": "ok",
+            "result": "2.4359648e-05",
+            "label": "bathtub"
+        },
+        {
+            "status": "ok",
+            "result": "2.7399783e-05",
+            "label": "beach_wagon"
+        },
+        {
+            "status": "ok",
+            "result": "0.0011733875",
+            "label": "beacon"
+        },
+        {
+            "status": "ok",
+            "result": "1.0448032e-05",
+            "label": "beaker"
+        },
+        {
+            "status": "ok",
+            "result": "3.5478324e-06",
+            "label": "bearskin"
+        },
+        {
+            "status": "ok",
+            "result": "0.00027557183",
+            "label": "beer_bottle"
+        },
+        {
+            "status": "ok",
+            "result": "1.4064777e-06",
+            "label": "beer_glass"
+        },
+        {
+            "status": "ok",
+            "result": "9.731937e-06",
+            "label": "bell_cote"
+        },
+        {
+            "status": "ok",
+            "result": "4.1645066e-07",
+            "label": "bib"
+        },
+        {
+            "status": "ok",
+            "result": "7.37886e-05",
+            "label": "bicycle-built-for-two"
+        },
+        {
+            "status": "ok",
+            "result": "1.9876397e-05",
+            "label": "bikini"
+        },
+        {
+            "status": "ok",
+            "result": "2.3800872e-05",
+            "label": "binder"
+        },
+        {
+            "status": "ok",
+            "result": "3.4377459e-09",
+            "label": "binoculars"
+        },
+        {
+            "status": "ok",
+            "result": "1.4363209e-05",
+            "label": "birdhouse"
+        },
+        {
+            "status": "ok",
+            "result": "3.574022e-06",
+            "label": "boathouse"
+        },
+        {
+            "status": "ok",
+            "result": "9.2626016e-07",
+            "label": "bobsled"
+        },
+        {
+            "status": "ok",
+            "result": "2.5267802e-05",
+            "label": "bolo_tie"
+        },
+        {
+            "status": "ok",
+            "result": "6.933929e-05",
+            "label": "bonnet"
+        },
+        {
+            "status": "ok",
+            "result": "8.692549e-05",
+            "label": "bookcase"
+        },
+        {
+            "status": "ok",
+            "result": "0.0014854341",
+            "label": "bookshop"
+        },
+        {
+            "status": "ok",
+            "result": "0.000254372",
+            "label": "bottlecap"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "bow"
+        },
+        {
+            "status": "ok",
+            "result": "1.5736921e-05",
+            "label": "bow_tie"
+        },
+        {
+            "status": "ok",
+            "result": "0.0006188342",
+            "label": "brass"
+        },
+        {
+            "status": "ok",
+            "result": "2.9048913e-05",
+            "label": "brassiere"
+        },
+        {
+            "status": "ok",
+            "result": "1.4371837e-05",
+            "label": "breakwater"
+        },
+        {
+            "status": "ok",
+            "result": "1.2644102e-05",
+            "label": "breastplate"
+        },
+        {
+            "status": "ok",
+            "result": "0.0006350773",
+            "label": "broom"
+        },
+        {
+            "status": "ok",
+            "result": "1.539468e-05",
+            "label": "bucket"
+        },
+        {
+            "status": "ok",
+            "result": "0.00012862917",
+            "label": "buckle"
+        },
+        {
+            "status": "ok",
+            "result": "4.1924715e-05",
+            "label": "bulletproof_vest"
+        },
+        {
+            "status": "ok",
+            "result": "8.975107e-05",
+            "label": "bullet_train"
+        },
+        {
+            "status": "ok",
+            "result": "2.1211106e-05",
+            "label": "butcher_shop"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "cab"
+        },
+        {
+            "status": "ok",
+            "result": "0.0001360069",
+            "label": "caldron"
+        },
+        {
+            "status": "ok",
+            "result": "0.0003499027",
+            "label": "candle"
+        },
+        {
+            "status": "ok",
+            "result": "3.5695197e-05",
+            "label": "cannon"
+        },
+        {
+            "status": "ok",
+            "result": "1.2173328e-05",
+            "label": "canoe"
+        },
+        {
+            "status": "ok",
+            "result": "5.2688607e-05",
+            "label": "can_opener"
+        },
+        {
+            "status": "ok",
+            "result": "6.8868605e-05",
+            "label": "cardigan"
+        },
+        {
+            "status": "ok",
+            "result": "1.600509e-05",
+            "label": "car_mirror"
+        },
+        {
+            "status": "ok",
+            "result": "3.296791e-05",
+            "label": "carousel"
+        },
+        {
+            "status": "ok",
+            "result": "1.16183355e-05",
+            "label": "carpenter's_kit"
+        },
+        {
+            "status": "ok",
+            "result": "8.373801e-05",
+            "label": "carton"
+        },
+        {
+            "status": "ok",
+            "result": "0.00039199917",
+            "label": "car_wheel"
+        },
+        {
+            "status": "ok",
+            "result": "7.011099e-05",
+            "label": "cash_machine"
+        },
+        {
+            "status": "ok",
+            "result": "4.915899e-06",
+            "label": "cassette"
+        },
+        {
+            "status": "ok",
+            "result": "8.424256e-05",
+            "label": "cassette_player"
+        },
+        {
+            "status": "ok",
+            "result": "1.515847e-05",
+            "label": "castle"
+        },
+        {
+            "status": "ok",
+            "result": "4.312345e-05",
+            "label": "catamaran"
+        },
+        {
+            "status": "ok",
+            "result": "3.1940287e-06",
+            "label": "CD_player"
+        },
+        {
+            "status": "ok",
+            "result": "1.5200617e-05",
+            "label": "cello"
+        },
+        {
+            "status": "ok",
+            "result": "0.001238378",
+            "label": "cellular_telephone"
+        },
+        {
+            "status": "ok",
+            "result": "1.755972e-06",
+            "label": "chain"
+        },
+        {
+            "status": "ok",
+            "result": "1.9142708e-06",
+            "label": "chainlink_fence"
+        },
+        {
+            "status": "ok",
+            "result": "2.6728758e-06",
+            "label": "chain_mail"
+        },
+        {
+            "status": "ok",
+            "result": "3.9499714e-06",
+            "label": "chain_saw"
+        },
+        {
+            "status": "ok",
+            "result": "0.00030437057",
+            "label": "chest"
+        },
+        {
+            "status": "ok",
+            "result": "4.4633803e-06",
+            "label": "chiffonier"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "chime"
+        },
+        {
+            "status": "ok",
+            "result": "9.292987e-06",
+            "label": "china_cabinet"
+        },
+        {
+            "status": "ok",
+            "result": "4.1649484e-05",
+            "label": "Christmas_stocking"
+        },
+        {
+            "status": "ok",
+            "result": "4.5305198e-05",
+            "label": "church"
+        },
+        {
+            "status": "ok",
+            "result": "1.1243136e-06",
+            "label": "cinema"
+        },
+        {
+            "status": "ok",
+            "result": "1.1007985e-05",
+            "label": "cleaver"
+        },
+        {
+            "status": "ok",
+            "result": "4.4349083e-05",
+            "label": "cliff_dwelling"
+        },
+        {
+            "status": "ok",
+            "result": "0.00011081515",
+            "label": "cloak"
+        },
+        {
+            "status": "ok",
+            "result": "1.8348866e-05",
+            "label": "clog"
+        },
+        {
+            "status": "ok",
+            "result": "2.1819795e-05",
+            "label": "cocktail_shaker"
+        },
+        {
+            "status": "ok",
+            "result": "0.00017955106",
+            "label": "coffee_mug"
+        },
+        {
+            "status": "ok",
+            "result": "1.2152159e-05",
+            "label": "coffeepot"
+        },
+        {
+            "status": "ok",
+            "result": "0.0022995605",
+            "label": "coil"
+        },
+        {
+            "status": "ok",
+            "result": "0.00024567673",
+            "label": "combination_lock"
+        },
+        {
+            "status": "ok",
+            "result": "0.00028615998",
+            "label": "computer_keyboard"
+        },
+        {
+            "status": "ok",
+            "result": "5.788406e-05",
+            "label": "confectionery"
+        },
+        {
+            "status": "ok",
+            "result": "9.257515e-05",
+            "label": "container_ship"
+        },
+        {
+            "status": "ok",
+            "result": "0.00053442485",
+            "label": "convertible"
+        },
+        {
+            "status": "ok",
+            "result": "9.717052e-07",
+            "label": "corkscrew"
+        },
+        {
+            "status": "ok",
+            "result": "7.6367534e-05",
+            "label": "cornet"
+        },
+        {
+            "status": "ok",
+            "result": "4.0740697e-06",
+            "label": "cowboy_boot"
+        },
+        {
+            "status": "ok",
+            "result": "8.513102e-06",
+            "label": "cowboy_hat"
+        },
+        {
+            "status": "ok",
+            "result": "0.0001214024",
+            "label": "cradle"
+        },
+        {
+            "status": "ok",
+            "result": "2.2714661e-05",
+            "label": "crane"
+        },
+        {
+            "status": "ok",
+            "result": "1.0345092e-05",
+            "label": "crash_helmet"
+        },
+        {
+            "status": "ok",
+            "result": "9.9366e-05",
+            "label": "crate"
+        },
+        {
+            "status": "ok",
+            "result": "7.096581e-05",
+            "label": "crib"
+        },
+        {
+            "status": "ok",
+            "result": "7.833647e-06",
+            "label": "Crock_Pot"
+        },
+        {
+            "status": "ok",
+            "result": "2.1101774e-05",
+            "label": "croquet_ball"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "crutch"
+        },
+        {
+            "status": "ok",
+            "result": "5.0765652e-06",
+            "label": "cuirass"
+        },
+        {
+            "status": "ok",
+            "result": "3.4006218e-06",
+            "label": "dam"
+        },
+        {
+            "status": "ok",
+            "result": "3.9610088e-05",
+            "label": "desk"
+        },
+        {
+            "status": "ok",
+            "result": "0.0006427304",
+            "label": "desktop_computer"
+        },
+        {
+            "status": "ok",
+            "result": "9.853173e-06",
+            "label": "dial_telephone"
+        },
+        {
+            "status": "ok",
+            "result": "3.3640114e-05",
+            "label": "diaper"
+        },
+        {
+            "status": "ok",
+            "result": "2.1263938e-06",
+            "label": "digital_clock"
+        },
+        {
+            "status": "ok",
+            "result": "9.132881e-06",
+            "label": "digital_watch"
+        },
+        {
+            "status": "ok",
+            "result": "6.1368075e-05",
+            "label": "dining_table"
+        },
+        {
+            "status": "ok",
+            "result": "8.131551e-06",
+            "label": "dishrag"
+        },
+        {
+            "status": "ok",
+            "result": "1.01262885e-05",
+            "label": "dishwasher"
+        },
+        {
+            "status": "ok",
+            "result": "1.1452408e-05",
+            "label": "disk_brake"
+        },
+        {
+            "status": "ok",
+            "result": "1.1092608e-06",
+            "label": "dock"
+        },
+        {
+            "status": "ok",
+            "result": "6.522438e-05",
+            "label": "dogsled"
+        },
+        {
+            "status": "ok",
+            "result": "3.532126e-05",
+            "label": "dome"
+        },
+        {
+            "status": "ok",
+            "result": "2.6820093e-05",
+            "label": "doormat"
+        },
+        {
+            "status": "ok",
+            "result": "0.0001451433",
+            "label": "drilling_platform"
+        },
+        {
+            "status": "ok",
+            "result": "3.2945604e-06",
+            "label": "drum"
+        },
+        {
+            "status": "ok",
+            "result": "7.3492156e-05",
+            "label": "drumstick"
+        },
+        {
+            "status": "ok",
+            "result": "1.2411743e-05",
+            "label": "dumbbell"
+        },
+        {
+            "status": "ok",
+            "result": "6.6394914e-06",
+            "label": "Dutch_oven"
+        },
+        {
+            "status": "ok",
+            "result": "1.3198711e-05",
+            "label": "electric_fan"
+        },
+        {
+            "status": "ok",
+            "result": "1.1100803e-05",
+            "label": "electric_guitar"
+        },
+        {
+            "status": "ok",
+            "result": "8.7608874e-05",
+            "label": "electric_locomotive"
+        },
+        {
+            "status": "ok",
+            "result": "2.1648593e-05",
+            "label": "entertainment_center"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "envelope"
+        },
+        {
+            "status": "ok",
+            "result": "0.000108236054",
+            "label": "espresso_maker"
+        },
+        {
+            "status": "ok",
+            "result": "3.0249112e-05",
+            "label": "face_powder"
+        },
+        {
+            "status": "ok",
+            "result": "0.0001079799",
+            "label": "feather_boa"
+        },
+        {
+            "status": "ok",
+            "result": "0.0017997451",
+            "label": "file"
+        },
+        {
+            "status": "ok",
+            "result": "1.0036774e-06",
+            "label": "fireboat"
+        },
+        {
+            "status": "ok",
+            "result": "0.00023775313",
+            "label": "fire_engine"
+        },
+        {
+            "status": "ok",
+            "result": "8.4720836e-05",
+            "label": "fire_screen"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "flagpole"
+        },
+        {
+            "status": "ok",
+            "result": "0.00010294586",
+            "label": "flute"
+        },
+        {
+            "status": "ok",
+            "result": "5.051217e-06",
+            "label": "folding_chair"
+        },
+        {
+            "status": "ok",
+            "result": "2.4436215e-05",
+            "label": "football_helmet"
+        },
+        {
+            "status": "ok",
+            "result": "2.5390033e-05",
+            "label": "forklift"
+        },
+        {
+            "status": "ok",
+            "result": "7.960616e-05",
+            "label": "fountain"
+        },
+        {
+            "status": "ok",
+            "result": "5.557318e-07",
+            "label": "fountain_pen"
+        },
+        {
+            "status": "ok",
+            "result": "4.913674e-05",
+            "label": "four-poster"
+        },
+        {
+            "status": "ok",
+            "result": "1.34128295e-05",
+            "label": "freight_car"
+        },
+        {
+            "status": "ok",
+            "result": "6.563497e-05",
+            "label": "French_horn"
+        },
+        {
+            "status": "ok",
+            "result": "2.703094e-06",
+            "label": "frying_pan"
+        },
+        {
+            "status": "ok",
+            "result": "9.544326e-05",
+            "label": "fur_coat"
+        },
+        {
+            "status": "ok",
+            "result": "8.7096705e-06",
+            "label": "garbage_truck"
+        },
+        {
+            "status": "ok",
+            "result": "0.0001385708",
+            "label": "gasmask"
+        },
+        {
+            "status": "ok",
+            "result": "0.0002475112",
+            "label": "gas_pump"
+        },
+        {
+            "status": "ok",
+            "result": "9.74811e-06",
+            "label": "goblet"
+        },
+        {
+            "status": "ok",
+            "result": "7.636253e-05",
+            "label": "go-kart"
+        },
+        {
+            "status": "ok",
+            "result": "0.00044574458",
+            "label": "golf_ball"
+        },
+        {
+            "status": "ok",
+            "result": "5.8140056e-05",
+            "label": "golfcart"
+        },
+        {
+            "status": "ok",
+            "result": "2.3495253e-05",
+            "label": "gondola"
+        },
+        {
+            "status": "ok",
+            "result": "0.00012130392",
+            "label": "gong"
+        },
+        {
+            "status": "ok",
+            "result": "0.00038993018",
+            "label": "gown"
+        },
+        {
+            "status": "ok",
+            "result": "2.2924909e-05",
+            "label": "grand_piano"
+        },
+        {
+            "status": "ok",
+            "result": "3.0417712e-05",
+            "label": "greenhouse"
+        },
+        {
+            "status": "ok",
+            "result": "5.6302842e-06",
+            "label": "grille"
+        },
+        {
+            "status": "ok",
+            "result": "4.8694284e-05",
+            "label": "grocery_store"
+        },
+        {
+            "status": "ok",
+            "result": "0.00011726217",
+            "label": "guillotine"
+        },
+        {
+            "status": "ok",
+            "result": "0.0003901783",
+            "label": "hair_slide"
+        },
+        {
+            "status": "ok",
+            "result": "0.0001353875",
+            "label": "hair_spray"
+        },
+        {
+            "status": "ok",
+            "result": "0.0008149058",
+            "label": "half_track"
+        },
+        {
+            "status": "ok",
+            "result": "6.093481e-06",
+            "label": "hammer"
+        },
+        {
+            "status": "ok",
+            "result": "0.00024069425",
+            "label": "hamper"
+        },
+        {
+            "status": "ok",
+            "result": "6.1228584e-06",
+            "label": "hand_blower"
+        },
+        {
+            "status": "ok",
+            "result": "4.442607e-05",
+            "label": "hand-held_computer"
+        },
+        {
+            "status": "ok",
+            "result": "1.135482e-05",
+            "label": "handkerchief"
+        },
+        {
+            "status": "ok",
+            "result": "6.107671e-05",
+            "label": "hard_disc"
+        },
+        {
+            "status": "ok",
+            "result": "1.0428146e-05",
+            "label": "harmonica"
+        },
+        {
+            "status": "ok",
+            "result": "1.4998393e-05",
+            "label": "harp"
+        },
+        {
+            "status": "ok",
+            "result": "0.0002269499",
+            "label": "harvester"
+        },
+        {
+            "status": "ok",
+            "result": "4.257645e-05",
+            "label": "hatchet"
+        },
+        {
+            "status": "ok",
+            "result": "2.9225681e-05",
+            "label": "holster"
+        },
+        {
+            "status": "ok",
+            "result": "0.0004111684",
+            "label": "home_theater"
+        },
+        {
+            "status": "ok",
+            "result": "6.4593965e-05",
+            "label": "honeycomb"
+        },
+        {
+            "status": "ok",
+            "result": "0.00013022305",
+            "label": "hook"
+        },
+        {
+            "status": "ok",
+            "result": "0.000143881",
+            "label": "hoopskirt"
+        },
+        {
+            "status": "ok",
+            "result": "0.0013398853",
+            "label": "horizontal_bar"
+        },
+        {
+            "status": "ok",
+            "result": "2.6617667e-05",
+            "label": "horse_cart"
+        },
+        {
+            "status": "ok",
+            "result": "6.220925e-05",
+            "label": "hourglass"
+        },
+        {
+            "status": "ok",
+            "result": "0.00013498837",
+            "label": "iPod"
+        },
+        {
+            "status": "ok",
+            "result": "0.00010918203",
+            "label": "iron"
+        },
+        {
+            "status": "ok",
+            "result": "0.0005328845",
+            "label": "jack-o'-lantern"
+        },
+        {
+            "status": "ok",
+            "result": "2.2716422e-05",
+            "label": "jean"
+        },
+        {
+            "status": "ok",
+            "result": "0.00029978383",
+            "label": "jeep"
+        },
+        {
+            "status": "ok",
+            "result": "0.00019508733",
+            "label": "jersey"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "jigsaw_puzzle"
+        },
+        {
+            "status": "ok",
+            "result": "5.606843e-05",
+            "label": "jinrikisha"
+        },
+        {
+            "status": "ok",
+            "result": "1.0550258e-05",
+            "label": "joystick"
+        },
+        {
+            "status": "ok",
+            "result": "2.3085313e-06",
+            "label": "kimono"
+        },
+        {
+            "status": "ok",
+            "result": "3.0999126e-05",
+            "label": "knee_pad"
+        },
+        {
+            "status": "ok",
+            "result": "1.7202145e-05",
+            "label": "knot"
+        },
+        {
+            "status": "ok",
+            "result": "0.00023181105",
+            "label": "lab_coat"
+        },
+        {
+            "status": "ok",
+            "result": "3.161729e-05",
+            "label": "ladle"
+        },
+        {
+            "status": "ok",
+            "result": "4.8586908e-06",
+            "label": "lampshade"
+        },
+        {
+            "status": "ok",
+            "result": "0.000103735445",
+            "label": "laptop"
+        },
+        {
+            "status": "ok",
+            "result": "1.2437543e-05",
+            "label": "lawn_mower"
+        },
+        {
+            "status": "ok",
+            "result": "2.492532e-05",
+            "label": "lens_cap"
+        },
+        {
+            "status": "ok",
+            "result": "7.79544e-06",
+            "label": "letter_opener"
+        },
+        {
+            "status": "ok",
+            "result": "0.000112209236",
+            "label": "library"
+        },
+        {
+            "status": "ok",
+            "result": "0.000477723",
+            "label": "lifeboat"
+        },
+        {
+            "status": "ok",
+            "result": "1.7767783e-05",
+            "label": "lighter"
+        },
+        {
+            "status": "ok",
+            "result": "0.0010107649",
+            "label": "limousine"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "liner"
+        },
+        {
+            "status": "ok",
+            "result": "1.0246563e-05",
+            "label": "lipstick"
+        },
+        {
+            "status": "ok",
+            "result": "3.0424168e-05",
+            "label": "Loafer"
+        },
+        {
+            "status": "ok",
+            "result": "0.00016644085",
+            "label": "lotion"
+        },
+        {
+            "status": "ok",
+            "result": "0.0003059333",
+            "label": "loudspeaker"
+        },
+        {
+            "status": "ok",
+            "result": "5.706639e-05",
+            "label": "loupe"
+        },
+        {
+            "status": "ok",
+            "result": "0.00072898704",
+            "label": "lumbermill"
+        },
+        {
+            "status": "ok",
+            "result": "6.3653184e-05",
+            "label": "magnetic_compass"
+        },
+        {
+            "status": "ok",
+            "result": "0.000588509",
+            "label": "mailbag"
+        },
+        {
+            "status": "ok",
+            "result": "0.00013012144",
+            "label": "mailbox"
+        },
+        {
+            "status": "ok",
+            "result": "7.585458e-05",
+            "label": "maillot"
+        },
+        {
+            "status": "ok",
+            "result": "7.585453e-05",
+            "label": "maillot"
+        },
+        {
+            "status": "ok",
+            "result": "1.8744891e-05",
+            "label": "manhole_cover"
+        },
+        {
+            "status": "ok",
+            "result": "5.585555e-07",
+            "label": "maraca"
+        },
+        {
+            "status": "ok",
+            "result": "3.1379393e-06",
+            "label": "marimba"
+        },
+        {
+            "status": "ok",
+            "result": "0.00030519595",
+            "label": "mask"
+        },
+        {
+            "status": "ok",
+            "result": "0.00020812462",
+            "label": "matchstick"
+        },
+        {
+            "status": "ok",
+            "result": "0.0008608188",
+            "label": "maypole"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "maze"
+        },
+        {
+            "status": "ok",
+            "result": "0.00044773667",
+            "label": "measuring_cup"
+        },
+        {
+            "status": "ok",
+            "result": "0.00028779017",
+            "label": "medicine_chest"
+        },
+        {
+            "status": "ok",
+            "result": "0.00024594308",
+            "label": "megalith"
+        },
+        {
+            "status": "ok",
+            "result": "1.81706e-05",
+            "label": "microphone"
+        },
+        {
+            "status": "ok",
+            "result": "3.6476758e-06",
+            "label": "microwave"
+        },
+        {
+            "status": "ok",
+            "result": "3.9811496e-07",
+            "label": "military_uniform"
+        },
+        {
+            "status": "ok",
+            "result": "2.3371284e-05",
+            "label": "milk_can"
+        },
+        {
+            "status": "ok",
+            "result": "0.00018618967",
+            "label": "minibus"
+        },
+        {
+            "status": "ok",
+            "result": "0.00029791036",
+            "label": "miniskirt"
+        },
+        {
+            "status": "ok",
+            "result": "0.14554507",
+            "label": "minivan"
+        },
+        {
+            "status": "ok",
+            "result": "2.4953113e-06",
+            "label": "missile"
+        },
+        {
+            "status": "ok",
+            "result": "0.00013122034",
+            "label": "mitten"
+        },
+        {
+            "status": "ok",
+            "result": "6.0984687e-05",
+            "label": "mixing_bowl"
+        },
+        {
+            "status": "ok",
+            "result": "8.058256e-06",
+            "label": "mobile_home"
+        },
+        {
+            "status": "ok",
+            "result": "0.00093374104",
+            "label": "Model_T"
+        },
+        {
+            "status": "ok",
+            "result": "0.00023275873",
+            "label": "modem"
+        },
+        {
+            "status": "ok",
+            "result": "9.006852e-05",
+            "label": "monastery"
+        },
+        {
+            "status": "ok",
+            "result": "1.9208548e-05",
+            "label": "monitor"
+        },
+        {
+            "status": "ok",
+            "result": "4.2564934e-05",
+            "label": "moped"
+        },
+        {
+            "status": "ok",
+            "result": "0.00019086918",
+            "label": "mortar"
+        },
+        {
+            "status": "ok",
+            "result": "1.4216195e-06",
+            "label": "mortarboard"
+        },
+        {
+            "status": "ok",
+            "result": "0.00032855055",
+            "label": "mosque"
+        },
+        {
+            "status": "ok",
+            "result": "0.00025074178",
+            "label": "mosquito_net"
+        },
+        {
+            "status": "ok",
+            "result": "0.0022748222",
+            "label": "motor_scooter"
+        },
+        {
+            "status": "ok",
+            "result": "0.00022838332",
+            "label": "mountain_bike"
+        },
+        {
+            "status": "ok",
+            "result": "2.9698345e-05",
+            "label": "mountain_tent"
+        },
+        {
+            "status": "ok",
+            "result": "8.123583e-05",
+            "label": "mouse"
+        },
+        {
+            "status": "ok",
+            "result": "7.832625e-06",
+            "label": "mousetrap"
+        },
+        {
+            "status": "ok",
+            "result": "0.00017672776",
+            "label": "moving_van"
+        },
+        {
+            "status": "ok",
+            "result": "7.1107174e-06",
+            "label": "muzzle"
+        },
+        {
+            "status": "ok",
+            "result": "0.00018237834",
+            "label": "nail"
+        },
+        {
+            "status": "ok",
+            "result": "9.629326e-06",
+            "label": "neck_brace"
+        },
+        {
+            "status": "ok",
+            "result": "0.0001547844",
+            "label": "necklace"
+        },
+        {
+            "status": "ok",
+            "result": "0.00014055695",
+            "label": "nipple"
+        },
+        {
+            "status": "ok",
+            "result": "5.034026e-05",
+            "label": "notebook"
+        },
+        {
+            "status": "ok",
+            "result": "6.9258764e-05",
+            "label": "obelisk"
+        },
+        {
+            "status": "ok",
+            "result": "9.285428e-06",
+            "label": "oboe"
+        },
+        {
+            "status": "ok",
+            "result": "1.919474e-05",
+            "label": "ocarina"
+        },
+        {
+            "status": "ok",
+            "result": "0.000103973456",
+            "label": "odometer"
+        },
+        {
+            "status": "ok",
+            "result": "1.0364212e-06",
+            "label": "oil_filter"
+        },
+        {
+            "status": "ok",
+            "result": "4.5708144e-05",
+            "label": "organ"
+        },
+        {
+            "status": "ok",
+            "result": "1.612977e-05",
+            "label": "oscilloscope"
+        },
+        {
+            "status": "ok",
+            "result": "0.00011773678",
+            "label": "overskirt"
+        },
+        {
+            "status": "ok",
+            "result": "8.384387e-05",
+            "label": "oxcart"
+        },
+        {
+            "status": "ok",
+            "result": "4.091672e-06",
+            "label": "oxygen_mask"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "packet"
+        },
+        {
+            "status": "ok",
+            "result": "5.8620695e-05",
+            "label": "paddle"
+        },
+        {
+            "status": "ok",
+            "result": "0.000526293",
+            "label": "paddlewheel"
+        },
+        {
+            "status": "ok",
+            "result": "1.0893049e-05",
+            "label": "padlock"
+        },
+        {
+            "status": "ok",
+            "result": "0.0002818391",
+            "label": "paintbrush"
+        },
+        {
+            "status": "ok",
+            "result": "4.2820462e-05",
+            "label": "pajama"
+        },
+        {
+            "status": "ok",
+            "result": "5.8016958e-05",
+            "label": "palace"
+        },
+        {
+            "status": "ok",
+            "result": "9.598399e-06",
+            "label": "panpipe"
+        },
+        {
+            "status": "ok",
+            "result": "8.245708e-05",
+            "label": "paper_towel"
+        },
+        {
+            "status": "ok",
+            "result": "1.3083283e-06",
+            "label": "parachute"
+        },
+        {
+            "status": "ok",
+            "result": "3.3289027e-06",
+            "label": "parallel_bars"
+        },
+        {
+            "status": "ok",
+            "result": "3.7202736e-07",
+            "label": "park_bench"
+        },
+        {
+            "status": "ok",
+            "result": "1.4195231e-05",
+            "label": "parking_meter"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "passenger_car"
+        },
+        {
+            "status": "ok",
+            "result": "0.00031689502",
+            "label": "patio"
+        },
+        {
+            "status": "ok",
+            "result": "3.3519375e-06",
+            "label": "pay-phone"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "pedestal"
+        },
+        {
+            "status": "ok",
+            "result": "0.0010163748",
+            "label": "pencil_box"
+        },
+        {
+            "status": "ok",
+            "result": "0.00053854386",
+            "label": "pencil_sharpener"
+        },
+        {
+            "status": "ok",
+            "result": "4.3019895e-06",
+            "label": "perfume"
+        },
+        {
+            "status": "ok",
+            "result": "2.9968412e-05",
+            "label": "Petri_dish"
+        },
+        {
+            "status": "ok",
+            "result": "0.00013473784",
+            "label": "photocopier"
+        },
+        {
+            "status": "ok",
+            "result": "2.781623e-06",
+            "label": "pick"
+        },
+        {
+            "status": "ok",
+            "result": "1.3775905e-05",
+            "label": "pickelhaube"
+        },
+        {
+            "status": "ok",
+            "result": "1.4372861e-05",
+            "label": "picket_fence"
+        },
+        {
+            "status": "ok",
+            "result": "0.0004381052",
+            "label": "pickup"
+        },
+        {
+            "status": "ok",
+            "result": "8.2580766e-05",
+            "label": "pier"
+        },
+        {
+            "status": "ok",
+            "result": "3.0190965e-06",
+            "label": "piggy_bank"
+        },
+        {
+            "status": "ok",
+            "result": "5.7960453e-05",
+            "label": "pill_bottle"
+        },
+        {
+            "status": "ok",
+            "result": "4.1717267e-05",
+            "label": "pillow"
+        },
+        {
+            "status": "ok",
+            "result": "6.402279e-06",
+            "label": "ping-pong_ball"
+        },
+        {
+            "status": "ok",
+            "result": "4.622475e-08",
+            "label": "pinwheel"
+        },
+        {
+            "status": "ok",
+            "result": "0.00013401514",
+            "label": "pirate"
+        },
+        {
+            "status": "ok",
+            "result": "1.8063283e-05",
+            "label": "pitcher"
+        },
+        {
+            "status": "ok",
+            "result": "3.005358e-05",
+            "label": "plane"
+        },
+        {
+            "status": "ok",
+            "result": "3.5844067e-05",
+            "label": "planetarium"
+        },
+        {
+            "status": "ok",
+            "result": "0.0009986366",
+            "label": "plastic_bag"
+        },
+        {
+            "status": "ok",
+            "result": "1.9265784e-07",
+            "label": "plate_rack"
+        },
+        {
+            "status": "ok",
+            "result": "1.1789624e-05",
+            "label": "plow"
+        },
+        {
+            "status": "ok",
+            "result": "4.0182164e-07",
+            "label": "plunger"
+        },
+        {
+            "status": "ok",
+            "result": "6.444338e-05",
+            "label": "Polaroid_camera"
+        },
+        {
+            "status": "ok",
+            "result": "0.00013011784",
+            "label": "pole"
+        },
+        {
+            "status": "ok",
+            "result": "0.00017311853",
+            "label": "police_van"
+        },
+        {
+            "status": "ok",
+            "result": "1.5880736e-05",
+            "label": "poncho"
+        },
+        {
+            "status": "ok",
+            "result": "5.1307685e-05",
+            "label": "pool_table"
+        },
+        {
+            "status": "ok",
+            "result": "8.0688376e-05",
+            "label": "pop_bottle"
+        },
+        {
+            "status": "ok",
+            "result": "0.002207272",
+            "label": "pot"
+        },
+        {
+            "status": "ok",
+            "result": "0.0019225776",
+            "label": "potter's_wheel"
+        },
+        {
+            "status": "ok",
+            "result": "0.00015605263",
+            "label": "power_drill"
+        },
+        {
+            "status": "ok",
+            "result": "2.263174e-05",
+            "label": "prayer_rug"
+        },
+        {
+            "status": "ok",
+            "result": "8.236765e-06",
+            "label": "printer"
+        },
+        {
+            "status": "ok",
+            "result": "3.6250935e-07",
+            "label": "prison"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "projectile"
+        },
+        {
+            "status": "ok",
+            "result": "1.9361847e-05",
+            "label": "projector"
+        },
+        {
+            "status": "ok",
+            "result": "4.8218015e-05",
+            "label": "puck"
+        },
+        {
+            "status": "ok",
+            "result": "6.897404e-05",
+            "label": "punching_bag"
+        },
+        {
+            "status": "ok",
+            "result": "0.0015282152",
+            "label": "purse"
+        },
+        {
+            "status": "ok",
+            "result": "1.2109331e-06",
+            "label": "quill"
+        },
+        {
+            "status": "ok",
+            "result": "1.4652311e-05",
+            "label": "quilt"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "racer"
+        },
+        {
+            "status": "ok",
+            "result": "0.00015701917",
+            "label": "racket"
+        },
+        {
+            "status": "ok",
+            "result": "0.0024516631",
+            "label": "radiator"
+        },
+        {
+            "status": "ok",
+            "result": "1.978493e-05",
+            "label": "radio"
+        },
+        {
+            "status": "ok",
+            "result": "9.257428e-06",
+            "label": "radio_telescope"
+        },
+        {
+            "status": "ok",
+            "result": "5.4523207e-05",
+            "label": "rain_barrel"
+        },
+        {
+            "status": "ok",
+            "result": "8.562135e-06",
+            "label": "recreational_vehicle"
+        },
+        {
+            "status": "ok",
+            "result": "2.0153955e-05",
+            "label": "reel"
+        },
+        {
+            "status": "ok",
+            "result": "2.963565e-06",
+            "label": "reflex_camera"
+        },
+        {
+            "status": "ok",
+            "result": "0.00015183396",
+            "label": "refrigerator"
+        },
+        {
+            "status": "ok",
+            "result": "5.6790727e-06",
+            "label": "remote_control"
+        },
+        {
+            "status": "ok",
+            "result": "4.7705817e-05",
+            "label": "restaurant"
+        },
+        {
+            "status": "ok",
+            "result": "2.7631831e-05",
+            "label": "revolver"
+        },
+        {
+            "status": "ok",
+            "result": "1.7478955e-05",
+            "label": "rifle"
+        },
+        {
+            "status": "ok",
+            "result": "9.9212484e-05",
+            "label": "rocking_chair"
+        },
+        {
+            "status": "ok",
+            "result": "7.1408404e-06",
+            "label": "rotisserie"
+        },
+        {
+            "status": "ok",
+            "result": "0.0011104447",
+            "label": "rubber_eraser"
+        },
+        {
+            "status": "ok",
+            "result": "3.5258328e-08",
+            "label": "rugby_ball"
+        },
+        {
+            "status": "ok",
+            "result": "0.00077547383",
+            "label": "rule"
+        },
+        {
+            "status": "ok",
+            "result": "0.00033567773",
+            "label": "running_shoe"
+        },
+        {
+            "status": "ok",
+            "result": "5.342286e-05",
+            "label": "safe"
+        },
+        {
+            "status": "ok",
+            "result": "2.8238421e-06",
+            "label": "safety_pin"
+        },
+        {
+            "status": "ok",
+            "result": "1.6031781e-05",
+            "label": "saltshaker"
+        },
+        {
+            "status": "ok",
+            "result": "0.00029506677",
+            "label": "sandal"
+        },
+        {
+            "status": "ok",
+            "result": "1.8456825e-05",
+            "label": "sarong"
+        },
+        {
+            "status": "ok",
+            "result": "1.7784663e-06",
+            "label": "sax"
+        },
+        {
+            "status": "ok",
+            "result": "1.2615365e-05",
+            "label": "scabbard"
+        },
+        {
+            "status": "ok",
+            "result": "9.1366225e-08",
+            "label": "scale"
+        },
+        {
+            "status": "ok",
+            "result": "2.4816786e-06",
+            "label": "school_bus"
+        },
+        {
+            "status": "ok",
+            "result": "1.4392241e-05",
+            "label": "schooner"
+        },
+        {
+            "status": "ok",
+            "result": "0.00012435725",
+            "label": "scoreboard"
+        },
+        {
+            "status": "ok",
+            "result": "0.0034056",
+            "label": "screen"
+        },
+        {
+            "status": "ok",
+            "result": "0.00016640991",
+            "label": "screw"
+        },
+        {
+            "status": "ok",
+            "result": "9.1079187e-07",
+            "label": "screwdriver"
+        },
+        {
+            "status": "ok",
+            "result": "7.131998e-05",
+            "label": "seat_belt"
+        },
+        {
+            "status": "ok",
+            "result": "0.0002540226",
+            "label": "sewing_machine"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "shield"
+        },
+        {
+            "status": "ok",
+            "result": "0.00032163278",
+            "label": "shoe_shop"
+        },
+        {
+            "status": "ok",
+            "result": "0.00012221701",
+            "label": "shoji"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "shopping_basket"
+        },
+        {
+            "status": "ok",
+            "result": "0.00032355852",
+            "label": "shopping_cart"
+        },
+        {
+            "status": "ok",
+            "result": "0.00023819612",
+            "label": "shovel"
+        },
+        {
+            "status": "ok",
+            "result": "0.00013650386",
+            "label": "shower_cap"
+        },
+        {
+            "status": "ok",
+            "result": "6.156999e-05",
+            "label": "shower_curtain"
+        },
+        {
+            "status": "ok",
+            "result": "6.5646964e-06",
+            "label": "ski"
+        },
+        {
+            "status": "ok",
+            "result": "0.0003736388",
+            "label": "ski_mask"
+        },
+        {
+            "status": "ok",
+            "result": "5.7879035e-05",
+            "label": "sleeping_bag"
+        },
+        {
+            "status": "ok",
+            "result": "1.0223472e-06",
+            "label": "slide_rule"
+        },
+        {
+            "status": "ok",
+            "result": "0.00013011172",
+            "label": "sliding_door"
+        },
+        {
+            "status": "ok",
+            "result": "1.3526031e-07",
+            "label": "slot"
+        },
+        {
+            "status": "ok",
+            "result": "1.7174101e-05",
+            "label": "snorkel"
+        },
+        {
+            "status": "ok",
+            "result": "6.288465e-07",
+            "label": "snowmobile"
+        },
+        {
+            "status": "ok",
+            "result": "2.2520505e-06",
+            "label": "snowplow"
+        },
+        {
+            "status": "ok",
+            "result": "2.9857883e-05",
+            "label": "soap_dispenser"
+        },
+        {
+            "status": "ok",
+            "result": "1.9287038e-05",
+            "label": "soccer_ball"
+        },
+        {
+            "status": "ok",
+            "result": "4.282909e-05",
+            "label": "sock"
+        },
+        {
+            "status": "ok",
+            "result": "4.628136e-06",
+            "label": "solar_dish"
+        },
+        {
+            "status": "ok",
+            "result": "1.5680129e-05",
+            "label": "sombrero"
+        },
+        {
+            "status": "ok",
+            "result": "9.67571e-07",
+            "label": "soup_bowl"
+        },
+        {
+            "status": "ok",
+            "result": "3.2502106e-05",
+            "label": "space_bar"
+        },
+        {
+            "status": "ok",
+            "result": "9.117988e-05",
+            "label": "space_heater"
+        },
+        {
+            "status": "ok",
+            "result": "8.3967336e-07",
+            "label": "space_shuttle"
+        },
+        {
+            "status": "ok",
+            "result": "1.8487024e-05",
+            "label": "spatula"
+        },
+        {
+            "status": "ok",
+            "result": "2.235605e-05",
+            "label": "speedboat"
+        },
+        {
+            "status": "ok",
+            "result": "0.00013977528",
+            "label": "spider_web"
+        },
+        {
+            "status": "ok",
+            "result": "0.00070847926",
+            "label": "spindle"
+        },
+        {
+            "status": "ok",
+            "result": "2.3901928e-05",
+            "label": "sports_car"
+        },
+        {
+            "status": "ok",
+            "result": "0.0001447033",
+            "label": "spotlight"
+        },
+        {
+            "status": "ok",
+            "result": "5.7501467e-05",
+            "label": "stage"
+        },
+        {
+            "status": "ok",
+            "result": "0.0012049585",
+            "label": "steam_locomotive"
+        },
+        {
+            "status": "ok",
+            "result": "2.372166e-06",
+            "label": "steel_arch_bridge"
+        },
+        {
+            "status": "ok",
+            "result": "0.0002075824",
+            "label": "steel_drum"
+        },
+        {
+            "status": "ok",
+            "result": "2.4737304e-07",
+            "label": "stethoscope"
+        },
+        {
+            "status": "ok",
+            "result": "0.00073068234",
+            "label": "stole"
+        },
+        {
+            "status": "ok",
+            "result": "0.00018551183",
+            "label": "stone_wall"
+        },
+        {
+            "status": "ok",
+            "result": "0.00011795779",
+            "label": "stopwatch"
+        },
+        {
+            "status": "ok",
+            "result": "0.97415507",
+            "label": "stove"
+        },
+        {
+            "status": "ok",
+            "result": "1.799499e-05",
+            "label": "strainer"
+        },
+        {
+            "status": "ok",
+            "result": "0.00021883128",
+            "label": "streetcar"
+        },
+        {
+            "status": "ok",
+            "result": "0.0002517803",
+            "label": "stretcher"
+        },
+        {
+            "status": "ok",
+            "result": "0.00011171839",
+            "label": "studio_couch"
+        },
+        {
+            "status": "ok",
+            "result": "2.2950722e-05",
+            "label": "stupa"
+        },
+        {
+            "status": "ok",
+            "result": "5.9149e-05",
+            "label": "submarine"
+        },
+        {
+            "status": "ok",
+            "result": "3.4631964e-06",
+            "label": "suit"
+        },
+        {
+            "status": "ok",
+            "result": "0.00012694139",
+            "label": "sundial"
+        },
+        {
+            "status": "ok",
+            "result": "9.323687e-05",
+            "label": "sunglass"
+        },
+        {
+            "status": "ok",
+            "result": "1.80268e-05",
+            "label": "sunglasses"
+        },
+        {
+            "status": "ok",
+            "result": "8.163461e-05",
+            "label": "sunscreen"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "suspension_bridge"
+        },
+        {
+            "status": "ok",
+            "result": "0.00016407845",
+            "label": "swab"
+        },
+        {
+            "status": "ok",
+            "result": "4.5117384e-05",
+            "label": "sweatshirt"
+        },
+        {
+            "status": "ok",
+            "result": "0.00023503178",
+            "label": "swimming_trunks"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "swing"
+        },
+        {
+            "status": "ok",
+            "result": "0.00034050515",
+            "label": "switch"
+        },
+        {
+            "status": "ok",
+            "result": "3.079099e-05",
+            "label": "syringe"
+        },
+        {
+            "status": "ok",
+            "result": "0.012788715",
+            "label": "table_lamp"
+        },
+        {
+            "status": "ok",
+            "result": "1.4914381e-05",
+            "label": "tank"
+        },
+        {
+            "status": "ok",
+            "result": "0.0002397951",
+            "label": "tape_player"
+        },
+        {
+            "status": "ok",
+            "result": "2.1578702e-05",
+            "label": "teapot"
+        },
+        {
+            "status": "ok",
+            "result": "0.00023610903",
+            "label": "teddy"
+        },
+        {
+            "status": "ok",
+            "result": "1.14898485e-05",
+            "label": "television"
+        },
+        {
+            "status": "ok",
+            "result": "2.415805e-05",
+            "label": "tennis_ball"
+        },
+        {
+            "status": "ok",
+            "result": "0.00010859255",
+            "label": "thatch"
+        },
+        {
+            "status": "ok",
+            "result": "0.00016341815",
+            "label": "theater_curtain"
+        },
+        {
+            "status": "ok",
+            "result": "1.9972375e-05",
+            "label": "thimble"
+        },
+        {
+            "status": "ok",
+            "result": "6.383991e-05",
+            "label": "thresher"
+        },
+        {
+            "status": "ok",
+            "result": "7.7427685e-05",
+            "label": "throne"
+        },
+        {
+            "status": "ok",
+            "result": "0.0001992931",
+            "label": "tile_roof"
+        },
+        {
+            "status": "ok",
+            "result": "0.002618479",
+            "label": "toaster"
+        },
+        {
+            "status": "ok",
+            "result": "3.5168512e-07",
+            "label": "tobacco_shop"
+        },
+        {
+            "status": "ok",
+            "result": "4.729377e-05",
+            "label": "toilet_seat"
+        },
+        {
+            "status": "ok",
+            "result": "0.0011613892",
+            "label": "torch"
+        },
+        {
+            "status": "ok",
+            "result": "3.207898e-06",
+            "label": "totem_pole"
+        },
+        {
+            "status": "ok",
+            "result": "2.5792772e-06",
+            "label": "tow_truck"
+        },
+        {
+            "status": "ok",
+            "result": "2.0486725e-05",
+            "label": "toyshop"
+        },
+        {
+            "status": "ok",
+            "result": "1.0331752e-05",
+            "label": "tractor"
+        },
+        {
+            "status": "ok",
+            "result": "4.101641e-05",
+            "label": "trailer_truck"
+        },
+        {
+            "status": "ok",
+            "result": "1.9038434e-05",
+            "label": "tray"
+        },
+        {
+            "status": "ok",
+            "result": "1.6732687e-05",
+            "label": "trench_coat"
+        },
+        {
+            "status": "ok",
+            "result": "3.6555113e-05",
+            "label": "tricycle"
+        },
+        {
+            "status": "ok",
+            "result": "9.473522e-05",
+            "label": "trimaran"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "tripod"
+        },
+        {
+            "status": "ok",
+            "result": "2.946415e-05",
+            "label": "triumphal_arch"
+        },
+        {
+            "status": "ok",
+            "result": "3.8021364e-05",
+            "label": "trolleybus"
+        },
+        {
+            "status": "ok",
+            "result": "0.00011975293",
+            "label": "trombone"
+        },
+        {
+            "status": "ok",
+            "result": "9.5966476e-05",
+            "label": "tub"
+        },
+        {
+            "status": "ok",
+            "result": "0.00019931927",
+            "label": "turnstile"
+        },
+        {
+            "status": "ok",
+            "result": "4.2592244e-05",
+            "label": "typewriter_keyboard"
+        },
+        {
+            "status": "ok",
+            "result": "3.5852463e-05",
+            "label": "umbrella"
+        },
+        {
+            "status": "ok",
+            "result": "1.461105e-05",
+            "label": "unicycle"
+        },
+        {
+            "status": "ok",
+            "result": "0.00018490502",
+            "label": "upright"
+        },
+        {
+            "status": "ok",
+            "result": "2.3043705e-05",
+            "label": "vacuum"
+        },
+        {
+            "status": "ok",
+            "result": "7.737719e-05",
+            "label": "vase"
+        },
+        {
+            "status": "ok",
+            "result": "0.00021411029",
+            "label": "vault"
+        },
+        {
+            "status": "ok",
+            "result": "0.0017937222",
+            "label": "velvet"
+        },
+        {
+            "status": "ok",
+            "result": "8.069364e-05",
+            "label": "vending_machine"
+        },
+        {
+            "status": "ok",
+            "result": "7.1423784e-07",
+            "label": "vestment"
+        },
+        {
+            "status": "ok",
+            "result": "1.4956492e-05",
+            "label": "viaduct"
+        },
+        {
+            "status": "ok",
+            "result": "4.5887657e-05",
+            "label": "violin"
+        },
+        {
+            "status": "ok",
+            "result": "1.7117514e-05",
+            "label": "volleyball"
+        },
+        {
+            "status": "ok",
+            "result": "0.00027981255",
+            "label": "waffle_iron"
+        },
+        {
+            "status": "ok",
+            "result": "0.00016933419",
+            "label": "wall_clock"
+        },
+        {
+            "status": "ok",
+            "result": "6.059892e-05",
+            "label": "wallet"
+        },
+        {
+            "status": "ok",
+            "result": "0.006759016",
+            "label": "wardrobe"
+        },
+        {
+            "status": "ok",
+            "result": "0.000113412956",
+            "label": "warplane"
+        },
+        {
+            "status": "ok",
+            "result": "9.524644e-07",
+            "label": "washbasin"
+        },
+        {
+            "status": "ok",
+            "result": "0.00018094991",
+            "label": "washer"
+        },
+        {
+            "status": "ok",
+            "result": "3.140292e-05",
+            "label": "water_bottle"
+        },
+        {
+            "status": "ok",
+            "result": "7.439353e-05",
+            "label": "water_jug"
+        },
+        {
+            "status": "ok",
+            "result": "4.043343e-05",
+            "label": "water_tower"
+        },
+        {
+            "status": "ok",
+            "result": "8.001544e-06",
+            "label": "whiskey_jug"
+        },
+        {
+            "status": "ok",
+            "result": "1.3091426e-05",
+            "label": "whistle"
+        },
+        {
+            "status": "ok",
+            "result": "4.8059387e-06",
+            "label": "wig"
+        },
+        {
+            "status": "ok",
+            "result": "5.91084e-05",
+            "label": "window_screen"
+        },
+        {
+            "status": "ok",
+            "result": "0.00021834733",
+            "label": "window_shade"
+        },
+        {
+            "status": "ok",
+            "result": "5.05663e-05",
+            "label": "Windsor_tie"
+        },
+        {
+            "status": "ok",
+            "result": "0.00041439192",
+            "label": "wine_bottle"
+        },
+        {
+            "status": "ok",
+            "result": "0.000231502",
+            "label": "wing"
+        },
+        {
+            "status": "ok",
+            "result": "2.4124778e-05",
+            "label": "wok"
+        },
+        {
+            "status": "ok",
+            "result": "1.443811e-05",
+            "label": "wooden_spoon"
+        },
+        {
+            "status": "ok",
+            "result": "8.35009e-06",
+            "label": "wool"
+        },
+        {
+            "status": "ok",
+            "result": "7.088273e-06",
+            "label": "worm_fence"
+        },
+        {
+            "status": "ok",
+            "result": "1.2639338e-05",
+            "label": "wreck"
+        },
+        {
+            "status": "ok",
+            "result": "3.1145493e-05",
+            "label": "yawl"
+        },
+        {
+            "status": "ok",
+            "result": "5.7454865e-05",
+            "label": "yurt"
+        },
+        {
+            "status": "ok",
+            "result": "0.00022288066",
+            "label": "web_site"
+        },
+        {
+            "status": "ok",
+            "result": "9.818122e-05",
+            "label": "comic_book"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "crossword_puzzle"
+        },
+        {
+            "status": "ok",
+            "result": "1.0572468e-05",
+            "label": "street_sign"
+        },
+        {
+            "status": "ok",
+            "result": "3.4600118e-06",
+            "label": "traffic_light"
+        },
+        {
+            "status": "ok",
+            "result": "5.831226e-05",
+            "label": "book_jacket"
+        },
+        {
+            "status": "ok",
+            "result": "5.1335748e-05",
+            "label": "menu"
+        },
+        {
+            "status": "ok",
+            "result": "6.581266e-06",
+            "label": "plate"
+        },
+        {
+            "status": "ok",
+            "result": "0.0002092122",
+            "label": "guacamole"
+        },
+        {
+            "status": "ok",
+            "result": "3.549419e-06",
+            "label": "consomme"
+        },
+        {
+            "status": "ok",
+            "result": "2.1499397e-06",
+            "label": "hot_pot"
+        },
+        {
+            "status": "ok",
+            "result": "1.2883449e-05",
+            "label": "trifle"
+        },
+        {
+            "status": "ok",
+            "result": "3.454859e-05",
+            "label": "ice_cream"
+        },
+        {
+            "status": "ok",
+            "result": "0.0005562927",
+            "label": "ice_lolly"
+        },
+        {
+            "status": "ok",
+            "result": "5.150425e-05",
+            "label": "French_loaf"
+        },
+        {
+            "status": "ok",
+            "result": "9.878545e-06",
+            "label": "bagel"
+        },
+        {
+            "status": "ok",
+            "result": "4.4505262e-07",
+            "label": "pretzel"
+        },
+        {
+            "status": "ok",
+            "result": "0.00036543992",
+            "label": "cheeseburger"
+        },
+        {
+            "status": "ok",
+            "result": "3.2309285e-06",
+            "label": "hotdog"
+        },
+        {
+            "status": "ok",
+            "result": "0.00015426721",
+            "label": "mashed_potato"
+        },
+        {
+            "status": "ok",
+            "result": "0.0005782068",
+            "label": "head_cabbage"
+        },
+        {
+            "status": "ok",
+            "result": "0.00013699278",
+            "label": "broccoli"
+        },
+        {
+            "status": "ok",
+            "result": "0.00012765481",
+            "label": "cauliflower"
+        },
+        {
+            "status": "ok",
+            "result": "2.8470755e-05",
+            "label": "zucchini"
+        },
+        {
+            "status": "ok",
+            "result": "3.493875e-07",
+            "label": "spaghetti_squash"
+        },
+        {
+            "status": "ok",
+            "result": "3.858508e-07",
+            "label": "acorn_squash"
+        },
+        {
+            "status": "ok",
+            "result": "1.7798017e-06",
+            "label": "butternut_squash"
+        },
+        {
+            "status": "ok",
+            "result": "2.769124e-05",
+            "label": "cucumber"
+        },
+        {
+            "status": "ok",
+            "result": "7.684858e-05",
+            "label": "artichoke"
+        },
+        {
+            "status": "ok",
+            "result": "6.8619097e-06",
+            "label": "bell_pepper"
+        },
+        {
+            "status": "ok",
+            "result": "2.9962303e-07",
+            "label": "cardoon"
+        },
+        {
+            "status": "ok",
+            "result": "0.0001049982",
+            "label": "mushroom"
+        },
+        {
+            "status": "ok",
+            "result": "1.2618323e-05",
+            "label": "Granny_Smith"
+        },
+        {
+            "status": "ok",
+            "result": "9.88443e-05",
+            "label": "strawberry"
+        },
+        {
+            "status": "error",
+            "result": "Could not correctly process this file",
+            "label": "orange"
+        },
+        {
+            "status": "ok",
+            "result": "0.00020999146",
+            "label": "lemon"
+        },
+        {
+            "status": "ok",
+            "result": "7.3956326e-05",
+            "label": "fig"
+        },
+        {
+            "status": "ok",
+            "result": "9.362115e-06",
+            "label": "pineapple"
+        },
+        {
+            "status": "ok",
+            "result": "2.9672796e-05",
+            "label": "banana"
+        },
+        {
+            "status": "ok",
+            "result": "0.00020196059",
+            "label": "jackfruit"
+        },
+        {
+            "status": "ok",
+            "result": "4.0192783e-05",
+            "label": "custard_apple"
+        },
+        {
+            "status": "ok",
+            "result": "2.9694336e-05",
+            "label": "pomegranate"
+        },
+        {
+            "status": "ok",
+            "result": "8.6152395e-05",
+            "label": "hay"
+        },
+        {
+            "status": "ok",
+            "result": "5.4766256e-06",
+            "label": "carbonara"
+        },
+        {
+            "status": "ok",
+            "result": "0.0003746524",
+            "label": "chocolate_sauce"
+        },
+        {
+            "status": "ok",
+            "result": "5.625485e-05",
+            "label": "dough"
+        },
+        {
+            "status": "ok",
+            "result": "3.4315863e-06",
+            "label": "meat_loaf"
+        },
+        {
+            "status": "ok",
+            "result": "1.3594731e-05",
+            "label": "pizza"
+        },
+        {
+            "status": "ok",
+            "result": "0.00052655576",
+            "label": "potpie"
+        },
+        {
+            "status": "ok",
+            "result": "6.359213e-06",
+            "label": "burrito"
+        },
+        {
+            "status": "ok",
+            "result": "3.850248e-05",
+            "label": "red_wine"
+        },
+        {
+            "status": "ok",
+            "result": "2.7862807e-05",
+            "label": "espresso"
+        },
+        {
+            "status": "ok",
+            "result": "0.00014288063",
+            "label": "cup"
+        },
+        {
+            "status": "ok",
+            "result": "7.879492e-06",
+            "label": "eggnog"
+        },
+        {
+            "status": "ok",
+            "result": "0.0002408985",
+            "label": "alp"
+        },
+        {
+            "status": "ok",
+            "result": "1.2647863e-05",
+            "label": "bubble"
+        },
+        {
+            "status": "ok",
+            "result": "2.9247815e-07",
+            "label": "cliff"
+        },
+        {
+            "status": "ok",
+            "result": "4.1840445e-05",
+            "label": "coral_reef"
+        },
+        {
+            "status": "ok",
+            "result": "9.101004e-06",
+            "label": "geyser"
+        },
+        {
+            "status": "ok",
+            "result": "0.0008312822",
+            "label": "lakeside"
+        },
+        {
+            "status": "ok",
+            "result": "1.5695592e-05",
+            "label": "promontory"
+        },
+        {
+            "status": "ok",
+            "result": "0.00014099265",
+            "label": "sandbar"
+        },
+        {
+            "status": "ok",
+            "result": "1.17954205e-05",
+            "label": "seashore"
+        },
+        {
+            "status": "ok",
+            "result": "0.00027743547",
+            "label": "valley"
+        },
+        {
+            "status": "ok",
+            "result": "3.4689918e-05",
+            "label": "volcano"
+        },
+        {
+            "status": "ok",
+            "result": "1.6452624e-06",
+            "label": "ballplayer"
+        },
+        {
+            "status": "ok",
+            "result": "5.3889885e-06",
+            "label": "groom"
+        },
+        {
+            "status": "ok",
+            "result": "0.0004591146",
+            "label": "scuba_diver"
+        },
+        {
+            "status": "ok",
+            "result": "0.00021619101",
+            "label": "rapeseed"
+        },
+        {
+            "status": "ok",
+            "result": "5.32783e-05",
+            "label": "daisy"
+        },
+        {
+            "status": "ok",
+            "result": "2.7133813e-06",
+            "label": "yellow_lady's_slipper"
+        },
+        {
+            "status": "ok",
+            "result": "1.904855e-05",
+            "label": "corn"
+        },
+        {
+            "status": "ok",
+            "result": "5.5899203e-05",
+            "label": "acorn"
+        },
+        {
+            "status": "ok",
+            "result": "6.2765925e-05",
+            "label": "hip"
+        },
+        {
+            "status": "ok",
+            "result": "0.00025604403",
+            "label": "buckeye"
+        },
+        {
+            "status": "ok",
+            "result": "0.0010832241",
+            "label": "coral_fungus"
+        },
+        {
+            "status": "ok",
+            "result": "0.00010499811",
+            "label": "agaric"
+        },
+        {
+            "status": "ok",
+            "result": "0.00016799764",
+            "label": "gyromitra"
+        },
+        {
+            "status": "ok",
+            "result": "4.590401e-05",
+            "label": "stinkhorn"
+        },
+        {
+            "status": "ok",
+            "result": "6.903034e-05",
+            "label": "earthstar"
+        },
+        {
+            "status": "ok",
+            "result": "5.862905e-05",
+            "label": "hen-of-the-woods"
+        },
+        {
+            "status": "ok",
+            "result": "4.830103e-05",
+            "label": "bolete"
+        },
+        {
+            "status": "ok",
+            "result": "6.109984e-05",
+            "label": "ear"
+        },
+        {
+            "status": "ok",
+            "result": "4.452692e-06",
+            "label": "toilet_tissue"
+        }
+    ]
+}
