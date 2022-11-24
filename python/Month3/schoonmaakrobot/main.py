@@ -3,7 +3,6 @@ os.system('cls')
 
 from tkinter import *
 
-GRID_SIZE = 60
 TILE_SIZE = 15
 
 TEST_MAP = [(1,6),(3,6),(3,3),(5,3),(5,2),(4,2),(4,1),(1,1),(1,3),(2,3),(2,5),(1,5),(1,6)]
@@ -28,7 +27,7 @@ def draw_spaceship_map():
 
     doolhof_canvas.pack(side=LEFT, fill=BOTH, expand=1, padx=10, pady=10)
 
-    used_map = REAL_MAP
+    used_map = TEST_MAP
 
     draw_map(doolhof_canvas, used_map)
     draw_robot(doolhof_canvas, robot_position)
@@ -51,6 +50,8 @@ def draw_spaceship_map():
 
             robot_position = tuple(robot_position_list)
             
+            print(f"x: {robot_position[0]}, y: {robot_position[1]}")
+
             doolhof_canvas.delete("all")
             draw_map(doolhof_canvas, used_map)
             draw_robot(doolhof_canvas, robot_position)
