@@ -180,8 +180,8 @@ def reset_canvas(used_map):
     global clean_area_corner
 
     doolhof_canvas.delete("all")
-    draw_cleaned_areas(doolhof_canvas)
     draw_area(doolhof_canvas, True, robot_position, clean_area_corner)
+    draw_cleaned_areas(doolhof_canvas)
     draw_robot(doolhof_canvas, robot_position)
     draw_map(doolhof_canvas, used_map)
 
