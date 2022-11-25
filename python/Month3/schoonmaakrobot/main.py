@@ -39,30 +39,33 @@ def draw_spaceship_map():
     draw_map(doolhof_canvas, used_map)
     draw_robot(doolhof_canvas, robot_position)
 
+
+    def select_area(event):
+
+        global robot_position
+        global clean_area_corner
+
+        list_clean_area_corner = list(clean_area_corner)
+
+        if (event.delta > 0):
+            list_clean_area_corner[0] += 1
+            list_clean_area_corner[1] += 1
+
+        if (event.delta < 0):
+            list_clean_area_corner[0] -= 1
+            list_clean_area_corner[1] -= 1
+
+        clean_area_corner = tuple(list_clean_area_corner)
+        
+        reset_canvas(used_map)
+
+
     def on_keypress(event):
 
         global robot_position
         global clean_area_corner
 
         key = event.char
-        keycode = event.keycode
-
-        if (keycode == UP_KEY or keycode == DOWN_KEY):
-
-            list_clean_area_corner = list(clean_area_corner)
-
-            if (keycode == UP_KEY):
-                list_clean_area_corner[0] += 1
-                list_clean_area_corner[1] += 1
-
-            if (keycode == DOWN_KEY):
-                list_clean_area_corner[0] -= 1
-                list_clean_area_corner[1] -= 1
-
-            clean_area_corner = tuple(list_clean_area_corner)
-            
-            reset_canvas(used_map)
-            
 
         if (key == 'w' or key == 'a' or key == 's' or key == 'd'):
             
@@ -115,6 +118,7 @@ def draw_spaceship_map():
 
     doolhof_canvas.bind_all("<Key>", on_keypress)
     doolhof_canvas.bind_all("<space>", clean_area)
+    doolhof_canvas.bind_all("<MouseWheel>", select_area)
 
 
 def draw_robot(canvas, position):
