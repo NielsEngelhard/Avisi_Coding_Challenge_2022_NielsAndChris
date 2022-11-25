@@ -83,6 +83,7 @@ def draw_spaceship_map():
             robot_position = tuple(robot_position_list)
             clean_area_corner = tuple(list_clean_area_corner)
             
+            # print de positie van de robot na iedere move
             # print(f"x: {robot_position[0]}, y: {robot_position[1]}")
 
             doolhof_canvas.delete("all")
