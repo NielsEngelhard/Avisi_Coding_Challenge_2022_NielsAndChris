@@ -113,10 +113,10 @@ def draw_spaceship_map():
         else:
             print("Area already cleaned")
         
-        list_clean_area_corner = list(clean_area_corner)
-        list_clean_area_corner[0] = robot_position[0]
-        list_clean_area_corner[1] = robot_position[1]
-        clean_area_corner = tuple(list_clean_area_corner)
+        # list_clean_area_corner = list(clean_area_corner)
+        # list_clean_area_corner[0] = robot_position[0]
+        # list_clean_area_corner[1] = robot_position[1]
+        # clean_area_corner = tuple(list_clean_area_corner)
 
         reset_canvas(used_map)
 
