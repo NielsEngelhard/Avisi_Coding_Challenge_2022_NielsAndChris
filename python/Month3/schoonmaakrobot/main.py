@@ -67,6 +67,10 @@ def draw_spaceship_map():
 
         key = event.char
 
+        if (key == 'z'):
+            cleaned_areas.pop()
+            reset_canvas(used_map)
+
         if (key == 'w' or key == 'a' or key == 's' or key == 'd'):
             
             list_clean_area_corner = list(clean_area_corner)
@@ -148,7 +152,7 @@ def draw_area(canvas, is_selection, top_left, bottom_right):
         color = "yellow green"
     else:
         color = "goldenrod"
-    canvas.create_rectangle(top_left[0] * TILE_SIZE, top_left[1] * TILE_SIZE , bottom_right[0] * TILE_SIZE + TILE_SIZE, bottom_right[1] * TILE_SIZE + TILE_SIZE, fill=color, outline="black")
+    canvas.create_rectangle(top_left[0] * TILE_SIZE, top_left[1] * TILE_SIZE , bottom_right[0] * TILE_SIZE + TILE_SIZE, bottom_right[1] * TILE_SIZE + TILE_SIZE, fill=color, outline="gray")
 
 
 def print_flag():
