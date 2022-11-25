@@ -47,23 +47,30 @@ def draw_spaceship_map():
         key = event.char
         keycode = event.keycode
 
-        if (keycode == UP_KEY):
-
-            print("Increase area")
+        if (keycode == UP_KEY or keycode == DOWN_KEY):
 
             list_clean_area_corner = list(clean_area_corner)
-            list_clean_area_corner[0] += 1
-            list_clean_area_corner[1] += 1
+
+            if (keycode == UP_KEY):
+
+                print("Increase area")
+
+                list_clean_area_corner[0] += 1
+                list_clean_area_corner[1] += 1
+
+            if (keycode == DOWN_KEY):
+
+                print("Decrease area")
+
+                list_clean_area_corner[0] -= 1
+                list_clean_area_corner[1] -= 1
+
             clean_area_corner = tuple(list_clean_area_corner)
-
-        if (keycode == DOWN_KEY):
-
-            print("Decrease area")
-
-            list_clean_area_corner = list(clean_area_corner)
-            list_clean_area_corner[0] -= 1
-            list_clean_area_corner[1] -= 1
-            clean_area_corner = tuple(list_clean_area_corner)
+            
+            doolhof_canvas.delete("all")
+            draw_map(doolhof_canvas, used_map)
+            draw_robot(doolhof_canvas, robot_position)
+            
 
         if (key == 'w' or key == 'a' or key == 's' or key == 'd'):
             
