@@ -34,7 +34,7 @@ def draw_spaceship_map():
 
     doolhof_canvas.pack(side=LEFT, fill=BOTH, expand=1, padx=10, pady=10)
 
-    used_map = TEST_MAP
+    used_map = REAL_MAP
 
     draw_map(doolhof_canvas, used_map)
     draw_robot(doolhof_canvas, robot_position)
