@@ -4,6 +4,9 @@ os.system('cls')
 from tkinter import *
 from models import CleanedArea
 
+UP_KEY = 38
+DOWN_KEY = 40
+
 TILE_SIZE = 15
 
 TEST_MAP = [(1,6),(3,6),(3,3),(5,3),(5,2),(4,2),(4,1),(1,1),(1,3),(2,3),(2,5),(1,5),(1,6)]
@@ -44,7 +47,7 @@ def draw_spaceship_map():
         key = event.char
         keycode = event.keycode
 
-        if (keycode == 38):
+        if (keycode == UP_KEY):
 
             print("Increase area")
 
@@ -53,7 +56,7 @@ def draw_spaceship_map():
             list_clean_area_corner[1] += 1
             clean_area_corner = tuple(list_clean_area_corner)
 
-        if (keycode == 40):
+        if (keycode == DOWN_KEY):
 
             print("Decrease area")
 
