@@ -34,7 +34,7 @@ def draw_spaceship_map():
 
     doolhof_canvas.pack(side=LEFT, fill=BOTH, expand=1, padx=10, pady=10)
 
-    used_map = TEST_MAP
+    used_map = REAL_MAP
 
     draw_map(doolhof_canvas, used_map)
     draw_robot(doolhof_canvas, robot_position)
@@ -52,24 +52,16 @@ def draw_spaceship_map():
             list_clean_area_corner = list(clean_area_corner)
 
             if (keycode == UP_KEY):
-
-                print("Increase area")
-
                 list_clean_area_corner[0] += 1
                 list_clean_area_corner[1] += 1
 
             if (keycode == DOWN_KEY):
-
-                print("Decrease area")
-
                 list_clean_area_corner[0] -= 1
                 list_clean_area_corner[1] -= 1
 
             clean_area_corner = tuple(list_clean_area_corner)
             
-            doolhof_canvas.delete("all")
-            draw_map(doolhof_canvas, used_map)
-            draw_robot(doolhof_canvas, robot_position)
+            reset_canvas(used_map)
             
 
         if (key == 'w' or key == 'a' or key == 's' or key == 'd'):
@@ -93,12 +85,11 @@ def draw_spaceship_map():
             robot_position = tuple(robot_position_list)
             clean_area_corner = tuple(list_clean_area_corner)
             
-            # print de positie van de robot na iedere move
-            # print(f"x: {robot_position[0]}, y: {robot_position[1]}")
+            reset_canvas(used_map)
+        
+        if (key == 't'):
+            print_flag()
 
-            doolhof_canvas.delete("all")
-            draw_map(doolhof_canvas, used_map)
-            draw_robot(doolhof_canvas, robot_position)
 
     def clean_area(_):
 
@@ -118,12 +109,16 @@ def draw_spaceship_map():
         list_clean_area_corner[1] = robot_position[1]
         clean_area_corner = tuple(list_clean_area_corner)
 
+        reset_canvas(used_map)
+
     doolhof_canvas.bind_all("<Key>", on_keypress)
     doolhof_canvas.bind_all("<space>", clean_area)
+
 
 def draw_robot(canvas, position):
     color = "aquamarine"
     canvas.create_rectangle(position[0] * TILE_SIZE, position[1] * TILE_SIZE , position[0] * TILE_SIZE + TILE_SIZE, position[1] * TILE_SIZE + TILE_SIZE, fill=color, outline="black")
+
 
 def draw_map(canvas, used_map):
     for i in range(len(used_map)):
@@ -135,6 +130,51 @@ def draw_map(canvas, used_map):
             x2 = used_map[i+1][0]
             y2 = used_map[i+1][1]
             draw_tile(canvas, x1, y1, x2, y2)
+
+
+def draw_cleaned_areas(canvas):
+    for area in cleaned_areas:
+        draw_area(canvas, False, (area.x1, area.y1), (area.x2, area.y2))
+
+
+def draw_area(canvas, is_selection, top_left, bottom_right):
+    if (is_selection):
+        color = "yellow green"
+    else:
+        color = "goldenrod"
+    canvas.create_rectangle(top_left[0] * TILE_SIZE, top_left[1] * TILE_SIZE , bottom_right[0] * TILE_SIZE + TILE_SIZE, bottom_right[1] * TILE_SIZE + TILE_SIZE, fill=color, outline="black")
+
+
+def print_flag():
+
+    total_time = 0
+    flag = "Flag{"
+
+    for i in range(len(cleaned_areas)):
+        if (i != len(cleaned_areas) - 1):
+            flag += f"{cleaned_areas[i].__str__()},"
+        else:
+            flag += f"{cleaned_areas[i].__str__()}"
+        total_time += cleaned_areas[i].time
+        
+    flag += "}, total time: "
+    flag += f"{total_time}"
+
+    print(flag)
+
+
+def reset_canvas(used_map):
+
+    global doolhof_canvas
+    global robot_position
+    global clean_area_corner
+
+    doolhof_canvas.delete("all")
+    draw_map(doolhof_canvas, used_map)
+    draw_cleaned_areas(doolhof_canvas)
+    draw_area(doolhof_canvas, True, robot_position, clean_area_corner)
+    draw_robot(doolhof_canvas, robot_position)
+
 
 def run():
     root.mainloop()
