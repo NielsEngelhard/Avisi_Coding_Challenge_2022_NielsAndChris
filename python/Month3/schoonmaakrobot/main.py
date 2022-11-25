@@ -34,7 +34,7 @@ def draw_spaceship_map():
 
     doolhof_canvas.pack(side=LEFT, fill=BOTH, expand=1, padx=10, pady=10)
 
-    used_map = REAL_MAP
+    used_map = TEST_MAP
 
     draw_map(doolhof_canvas, used_map)
     draw_robot(doolhof_canvas, robot_position)
@@ -92,7 +92,7 @@ def draw_spaceship_map():
             robot_position = tuple(robot_position_list)
             clean_area_corner = tuple(list_clean_area_corner)
             
-            # print(f"x: {robot_position[0]}, y: {robot_position[1]}")
+            print(f"x: {robot_position[0]}, y: {robot_position[1]}")
 
             reset_canvas(used_map)
         
